@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact | Victoria Zhang</title>
+
+		<meta name="description" 
+			content="Contact page of Victoria Zhang's personal website" />
+		<meta name="keywords"
+			content="art, design, student, contact"/>
+		<meta http-equiv="author"
+			content="Victoria Zhang"/>
+
+		<!-- Extrenal link to CSS -->
+		<link href="styles.css" type="text/css" rel="stylesheet"/>
+		
+	</head>
+	<body>
+		<div id="page">
+			<!--Menu Navigation Bar -->
+			<div class="menu-holder">
+				<nav id="header-main-menu">
+					<ul class="main-menu ">
+						<li>
+							<a href="schedule.html">Courses</a>
+						</li>
+						<li>
+							<a href="index.html #about">About</a> <!-- Link to about section on index page-->
+						</li>
+						<li>
+							<a href="contact.html">Contact</a>
+						</li>
+						<li>
+							<a href="works.html">Works</a>
+						</li>
+						<li>
+							<a href="index.html"> Home </a>
+						</li>
+					</ul>
+				</nav>
+            </div>
+         	<br/>
+
+			<h1 class= "center-text"> Contact Me </h1>
+	
+			<!-- Contact Form -->
+			<div class = "center-mid-3">
+				<form action="http://www.example.com/form.php" method="get">
+					<fieldset >
+						<legend class = "center-3"> Contact Me</legend>
+						<p><label class="title" for="name">Your name:</label>
+							<input type="text" name="name" id="name"><br />
+							<label class="title" for="email">Your email:</label>
+							<input type="text" name="email" id="email"></p>
+						<p><label for="location" class="title">Your closest center:</label>
+							<select name="location" id="location">
+								<option value="ny">New York</option>
+								<option value="il">Chicago</option>
+								<option value="ca">San Francisco</option>
+							</select></p>
+						<span class="title">Are you a member?</span>
+						<label><input type="radio" name="member" value="yes" /> Yes</label>
+						<label><input type="radio" name="member" value="no" /> No</label></p>
+					</fieldset>
+				<div class="submit"><input type="submit" value="Register" /></div>
+				</form>
+			</div>
+
+			<!-- Location Map -->
+			<div class="center-2">
+				<h1>Location Map</h1>
+				<p>Where You Can Find Me</p>
+				<div id="map">
+					<iframe class="map"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.195061212231!2d-79.94849364884124!3d40.448819479260095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f223446dcb1b%3A0xad52887fac259155!2sShady%20Oak%20Apartments%2C%20Pittsburgh%2C%20PA%2015213!5e0!3m2!1sen!2sus!4v1632158140565!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+			</div>
+
+			<!--Footer with Social Media Icons-->
+			<footer class="footer">
+				<div>
+					<p id="copyright"> © Victoria Zhang 2021 </p>
+					<div class="socialmedia"> 
+						<a href="https://www.instagram.com/oh.its.victoria/">
+							<span class="instagram"> <img class= "smlogo" src="img/instagram.png"/></span>
+						</a> 
+						<a href="https://www.facebook.com/victoria.zhang.754">
+							<span class="facebook"> <img class= "smlogo" src="img/f082.png"/></span>
+						</a> 
+						<a href="https://www.pinterest.com/2uesdayart/">
+							<span class="fa fa-pinterest-p"> <img class= "smlogo" src="img/f083.png"/> </span>
+						</a> 
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
