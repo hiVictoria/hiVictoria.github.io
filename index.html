@@ -1,91 +1,70 @@
-<!-- https://hivictoria.github.io/ -->
-
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Victoria Zhang</title>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<meta name="description" 
-			content="Personal website of Victoria Zhang" />
-		<meta name="keywords"
-			content="art, design, student, portfolio"/>
-		<meta http-equiv="author"
-			content="Victoria Zhang"/>
 
-		<!-- Extrenal link to CSS -->
-		<link href="styles.css" type="text/css" rel="stylesheet"/>
-		
-	</head>
-	<body>
-		<div id="page">
-			<!--Menu Navigation Bar -->
-			<div class="menu-holder">
-				<nav id="header-main-menu">
-					<ul class="main-menu ">
-						<li>
-							<a href="schedule.html">Courses</a>
-						</li>
-						<li>
-							<a href="#about">About</a> <!-- Link to about section on index page-->
-						</li>
-						<li>
-							<a href="contact.html">Contact</a>
-						</li>
-						<li>
-							<a href="works.html">Works</a>
-						</li>
-						<li>
-							<a href="index.html"> Home </a>
-						</li>
-					</ul>
-				</nav>
+        <meta name="description" content="Victoria Zhang Portfolio Website">
+        <meta name="author" content="Victoria Zhang">
+
+        <title>Victoria Zhang</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/index_styles.css" />
+
+    </head>
+
+    <body>
+        <!-- Nav Bar start-->
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+              <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                
+                <span class="fs-4"></span>
+              </a>
+        
+              <ul class="nav nav-pills">
+                <li class="nav-item"><a href="" class="nav-link text-dark" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-link text-dark">Projects</a></li>
+              </ul>
+            </header>
+        </div>
+        <!-- Nav Bar end-->
+
+        <!-- About start-->
+        <div class="container content">
+          <div class="row">
+        
+            <div id="about" class="col-6">
+                <h1>Hi! I'm <u id="victoria" class="popup">Victoria</u>.</h1>
+
+                <p>I'm a student at <a href="https://www.cmu.edu/" target="_blank" class="link popup" id="cmu">Carnegie Mellon University</a> studying Information Systems. I care about using design & technology to improve communities and organizations with solutions unique to their needs and users.</p>
+                <p>I enjoy <u id="cooking" class="popup">cooking</u> (and <u id="eating" class="popup">eating!</u>) good food, getting lost in <u id="nature" class="popup">nature</u>, and telling stories through my <u class="popup" id="art">art</u>.</p>
+            
+
             </div>
-			<br/><br/>
+            <!-- About end-->
 
-			<div id ="about">
-				<p class ="center-text" id="about">
-					<p id="hi">Hi! I'm Victoria.</p>
+            <div id="photos" class="col-6">
+              <img id = "victoria_img" src="images/Victoria Zhang.jpg" alt="Photo of Victoria Zhang">
+              <img id = "cmu_img" src="images/CMU.jpg" alt="Photo of Carnegie Mellon University campus taken at sunset">
+              <img id = "nature_img" src="images/nature.jpg" alt="Photo of rusting white truck obscured by tall leafy foliage in a green field">
+              <img id = "cooking_img" src="images/cooking.png" alt="Collage of various homemade foods">
+              <img id = "eating_img" src="images/eating.jpg" alt="Photo of Victoria eating a bowl of ramen">
+              <img id = "art_img" src="images/art.png" alt="Collage of various painting & pieces">
 
-					I'm an artist, designer, and Information Systems student at Carnegie Mellon University. <br/>I'm currently a graphic designer at <a id="tmc" href="https://www.thomasmertoncenter.org/">Thomas Merton Center</a>, a Pittsburgh-based nonprofit dedicated to social justice & human rights issues. In my free time, I enjoy eating good food, painting, reading and consuming online content. 
-				</p>
-			</div>
-			<br/>
-			<figure>
-				<img class ="img-1" src="img/Victoria side.jpg" alt="Photo of Victoria Zhang lying in profile on a grassy meadow with flowers" title="Victoria Zhang" />
-				<p>
-					<figcaption class="center-text">
-						Photo of Victoria Zhang
-					</figcaption>
-				</p>
-			</figure>
+            </div>
+          </div>
+          
+        </div>
 
-			<!-- Artwork Photos -->
-			<div class = "center-mid-1">
-				<h2 class="center-text">Artwork Highlight</h4>
-				<p class="center-text">
-					<img class ="img-2" id="pic1" src="img/Wild Spirit.jpeg" alt="Charcoal Artwork of a man surrounded by birds holding a lion mask" title="Wild Spirit" />
-					<img class ="img-2" id="pic2" src="img/With a Burning Heart.jpg" alt="Oil painting of an asian girl" title="With a Burining Heart" />
-					<img class ="img-2" id="norightpadding" src="img/Weeded Out.jpg" alt="Arcylic painting on masonite of a girl with a crown of weeds" title="Weeded Out" />
-				</p>
-			</div>
+        
 
-			<!--Footer with Social Media Icons-->
-			<footer class="footer">
-				<div>
-					<p id="copyright"> © Victoria Zhang 2021 </p>
-					<div class="socialmedia"> 
-						<a href="https://www.instagram.com/oh.its.victoria/">
-							<span class="instagram"> <img class= "smlogo" src="img/instagram.png"/></span>
-						</a> 
-						<a href="https://www.facebook.com/victoria.zhang.754">
-							<span class="facebook"> <img class= "smlogo" src="img/f082.png"/></span>
-						</a> 
-						<a href="https://www.pinterest.com/2uesdayart/">
-							<span class="fa fa-pinterest-p"> <img class= "smlogo" src="img/f083.png"/> </span>
-						</a>
-					</div>
-				</div>
-			</footer>
-		</div>
-	</body>
+        <!-- Script -->
+        <script type="text/javascript" src="scripts/index_scripts.js"></script>
+    </body>
 </html>

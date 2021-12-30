@@ -1,0 +1,28 @@
+a{
+  text-decoration-style:dotted ;
+  text-decoration-thickness:2px;
+}
+
+h1{
+  padding-bottom:2em;
+}
+img{
+  height: 28em;
+  margin: auto;
+  display:none;
+}
+
+.popup{
+  text-decoration-style:dotted ;
+  text-decoration-thickness:2px;
+  text-decoration-color:#2F9599;
+  color: #2F9599 ;
+}
+
+.popup:hover{
+  text-decoration-style:solid;
+}
+
+#cmu{
+  color:#2F9599;
+}

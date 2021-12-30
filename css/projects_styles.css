@@ -1,0 +1,40 @@
+#nav{
+    margin-bottom:0em !important;
+}
+
+div.card{
+    padding:0em;
+    margin:1em;
+}
+
+
+.titles{
+    z-index:10000;
+    text-align:center;
+    display:none;
+}
+
+
+.text-center {
+    color: #fff;
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;   
+}
+
+.row{
+    
+    justify-content: center;
+}
+
+#graphic_art{
+    margin-bottom:4em;
+}
+
+#projects{
+    text-align: center;
+}
