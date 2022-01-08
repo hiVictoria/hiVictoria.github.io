@@ -5,6 +5,9 @@ function displayOverlay(project_name){
 
     var title = project_name + "_title";
     document.getElementById(title).style.display ="block";
+
+    var cs = project_name + "_cs";
+    document.getElementById(cs).style.display ="block";
 }
 
 function overlayOff(project_name){
@@ -13,6 +16,17 @@ function overlayOff(project_name){
 
     var title = project_name + "_title";
     document.getElementById(title).style.display ="none";
+
+    var cs = project_name + "_cs";
+    document.getElementById(cs).style.display ="none";
+}
+
+function darkenText(){
+    this.className = "nav-link text-dark";
+}
+
+function lightenText(){
+    this.className = "nav-link text-muted";
 }
 
 document.getElementById("pandemic_pals").addEventListener("mouseover", function(){displayOverlay("pandemic_pals")});
@@ -30,3 +44,10 @@ document.getElementById("TMC").addEventListener("mouseout", function(){overlayOf
 document.getElementById("graphic_art").addEventListener("mouseover", function(){displayOverlay("graphic_art")});
 document.getElementById("graphic_art").addEventListener("mouseout", function(){overlayOff("graphic_art")});
 
+document.getElementById("graphic_square").addEventListener("mouseover", function(){displayOverlay("graphic_square")});
+document.getElementById("graphic_square").addEventListener("mouseout", function(){overlayOff("graphic_square")});
+
+document.getElementById("nav_home").addEventListener("mouseover", lightenText);
+document.getElementById("nav_home").addEventListener("mouseout", darkenText);
+document.getElementById("nav_projects").addEventListener("mouseover", lightenText);
+document.getElementById("nav_projects").addEventListener("mouseout", darkenText);

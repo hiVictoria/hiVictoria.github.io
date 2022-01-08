@@ -1,0 +1,103 @@
+a{
+    text-decoration:none;
+    color:black;
+  }
+  
+  body, html {
+      height: 100%;
+  }
+ul, p{
+  font-size:1.2em;
+}
+
+  .margin{
+    margin:3em 0em 3em 0em;
+  }
+  
+  .card{
+    margin:1em 0em 1em 0em;
+    padding:.25em;
+    color:black;
+  }
+  .parallax {
+    background-image: url("../images/iso-PLC.png");
+  
+    height: 35em;
+  
+    /* Create parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.small{
+  font-size:16px;
+}
+.list{
+  margin-bottom:.5em;
+}
+
+
+
+
+
+
+
+
+
+.margin{
+  padding-left:3em;
+  padding-right:3em;
+}
+
+
+#top{
+  padding-bottom:3em;
+  padding-top:3em;
+}
+
+section {
+  height: 50vh;
+}
+
+.hidden{
+  display:none;
+}
+.quickfacts{
+  display:none;
+}
+.rowIcons{
+  display:none;
+}
+
+  
+  
+
+
+
+
+.tag {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.yellow {
+  background-color: lightyellow;
+}
+.black {
+  background-color: black;
+  color:rgb(218, 218, 218);
+}
+.green {
+  background-color: #92c77a;
+  color:white;
+}
+.red {
+  background-color: #E0499A;
+}

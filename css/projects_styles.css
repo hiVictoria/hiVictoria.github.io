@@ -1,12 +1,20 @@
-#nav{
-    margin-bottom:0em !important;
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;   
 }
 
-div.card{
+.card_links{
+    width:28rem;
     padding:0em;
     margin:1em;
 }
-
+.landscape_card_links{
+    padding:0em;
+    margin:1em;
+    width:58rem
+}
 
 .titles{
     z-index:10000;
@@ -14,16 +22,8 @@ div.card{
     display:none;
 }
 
-
 .text-center {
     color: #fff;
-}
-
-.card-img-overlay {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;   
 }
 
 .row{
@@ -34,7 +34,22 @@ div.card{
 #graphic_art{
     margin-bottom:4em;
 }
+#hidden{
+    display:none;
+}
+#nav{
+    margin-bottom:0em !important;
+}
 
 #projects{
     text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    #hidden{
+        display:block;
+    }
+    #toHide{
+        display:none;
+    }
 }

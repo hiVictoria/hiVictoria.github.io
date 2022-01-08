@@ -16,6 +16,14 @@ function displayoff(){
     document.getElementById("cmu_img").style.display ="none";
 }
 
+function darkenText(){
+    this.className = "nav-link text-dark";
+}
+
+function lightenText(){
+    this.className = "nav-link text-muted";
+}
+
 document.getElementById("victoria").addEventListener("mouseover", function(){displayOn("victoria")});
 document.getElementById("victoria").addEventListener("mouseout", function(){displayOff("victoria")});
 
@@ -34,3 +42,7 @@ document.getElementById("eating").addEventListener("mouseout", function(){displa
 document.getElementById("art").addEventListener("mouseover", function(){displayOn("art")});
 document.getElementById("art").addEventListener("mouseout", function(){displayOff("art")});
 
+document.getElementById("nav_home").addEventListener("mouseover", lightenText);
+document.getElementById("nav_home").addEventListener("mouseout", darkenText);
+document.getElementById("nav_projects").addEventListener("mouseover", lightenText);
+document.getElementById("nav_projects").addEventListener("mouseout", darkenText);
