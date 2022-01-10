@@ -1,0 +1,103 @@
+p{
+    font-size:1.05em;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+hr{
+    color:#9E99D4;
+    width:70%;
+    margin:auto;
+}
+
+.card{
+ border-color:#9E99D4;  
+}
+.center{
+    display: flex;
+      flex-direction: row;
+      justify-content: center;
+      height: 100%;  
+}
+
+.hidden{
+display:none;
+}
+.larger-font{
+    font-size:1.15em;
+}
+.larger-text{
+    font-size:1.3em;
+}
+.tag {
+    opacity: 0;
+    transform: translate(0, 10vh);
+    transition: all 1s;
+}
+  
+.tag.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+.quickfacts{
+display:none;
+}
+.rowIcons{
+display:none;
+}
+
+.parallax {
+    background-image: url("../images/iso-pandemic-pals4.png");
+  
+    height: 35em;
+  
+    /* Create parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.purple{
+    background-color:#9E99D4;
+  color:white;
+}
+#prompt{
+    width:50%;
+    font-size:1.2em;
+    text-align:center;
+}
+#quote{
+    font-size:1.5em;
+    margin-bottom:.5em;
+}
+#top{
+    padding-bottom:3em;
+    padding-top:3em;
+}
+
+@media only screen and (max-width: 992px) {
+    .research-text{
+        text-align:center;
+    }
+    .research-container{
+        margin:auto;
+        padding-top:3em;
+    }
+    .hidden{
+        display:block;
+    }
+    .hidden-flex{
+        display:flex;
+    }
+    .notHidden{
+        display:none;
+    }
+    #prompt{
+        width:70%;
+    }
+
+}
+
+
+
