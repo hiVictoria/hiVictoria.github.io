@@ -22,7 +22,7 @@ hr{
 }
 
 .hidden, .hidden-flex{
-display:none;
+    display:none;
 }
 .larger-font{
     font-size:1.15em;
