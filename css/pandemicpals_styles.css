@@ -48,7 +48,8 @@ display:none;
 }
 
 .parallax {
-    background-image: url("../images/iso-pandemic-pals4.png");
+    background-image: url("../images/iso-pandemic-pals.png");
+    background-color:#9E99D4;
   
     height: 35em;
   

@@ -21,6 +21,7 @@ ul, p{
   }
   .parallax {
     background-image: url("../images/iso-PLC.png");
+    background-color:#AEDD96;
   
     height: 35em;
   
