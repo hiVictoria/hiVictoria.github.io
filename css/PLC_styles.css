@@ -19,6 +19,37 @@ ul, p{
     padding:.25em;
     color:black;
   }
+  .fade-in-image {
+    animation: fadeIn 4s;
+    -webkit-animation: fadeIn 4s;
+    -moz-animation: fadeIn 4s;
+    -o-animation: fadeIn 4s;
+    -ms-animation: fadeIn 4s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
   .parallax {
     background-image: url("../images/iso-PLC.png");
     background-color:#AEDD96;
@@ -43,15 +74,14 @@ ul, p{
 
 
 
-
-
-
 .margin{
   padding-left:3em;
   padding-right:3em;
 }
 
-
+#bck-color{
+  background-color:#AEDD96;
+}
 #top{
   padding-bottom:3em;
   padding-top:3em;

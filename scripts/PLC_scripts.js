@@ -13,4 +13,3 @@ $(document).on("scroll", function() {
       }
     }
   });
-  

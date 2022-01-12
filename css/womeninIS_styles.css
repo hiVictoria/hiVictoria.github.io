@@ -29,14 +29,44 @@ body, html {
   opacity: 1;
   transform: translate(0, 0);
 }
+.fade-in-image {
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+  -o-animation: fadeIn 4s;
+  -ms-animation: fadeIn 4s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
 
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
 .margin{
   padding-left:3em;
   padding-right:3em;
 }
 .parallax {
   background-image: url("../images/iso.png");
-  background-color:#2C7E96;
+  background-color:#296A86;
 
   height: 25em;
 
@@ -46,7 +76,9 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+#bck-color{
+  background-color:#296A86;
+}
 #challenge{
   margin: 1.5em 3em 3em 3em;
 }
