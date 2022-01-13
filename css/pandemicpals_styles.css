@@ -85,6 +85,8 @@ display:none;
 
 .parallax {
     background-image: url("../images/iso-pandemic-pals.png");
+    width: 100%;
+    height:100%;
     background-color:#9E99D4;
   
     height: 35em;
@@ -112,6 +114,19 @@ display:none;
     padding-bottom:3em;
     padding-top:3em;
 }
+
+
+@media only screen and (max-width: 576px) {
+    .colQuickfacts{
+      display:none;
+    }
+    .quickfacts{
+      display:block;
+    }
+    #top_heading{
+      text-align:center;
+    }
+  }
 
 @media only screen and (max-width: 992px) {
     .research-text{
