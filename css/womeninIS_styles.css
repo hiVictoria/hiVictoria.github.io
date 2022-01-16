@@ -211,7 +211,7 @@ section {
   .colIcons{
     display:none;
   }
-  .fade-in, .fade-in.visible{
+  .fade-in, .fade-in.visible, .tag{
     opacity: 1;
   transform: translate(0, 0);
   transition: all 0s;
