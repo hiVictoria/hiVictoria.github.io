@@ -139,7 +139,9 @@ display:none;
     transform: translate(0, 0);
     transition: all 0s;
     }
-    
+    .parallax{
+      background-attachment: scroll;
+    }
   }
 
 
