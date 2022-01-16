@@ -213,7 +213,11 @@ section {
   .colIcons{
     display:none;
   }
-
+  .fade-in, .fade-in.visible{
+    opacity: 1;
+  transform: translate(0, 0);
+  transition: all 0s;
+  }
   
 }
 

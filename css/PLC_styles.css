@@ -146,6 +146,10 @@ section {
   }
 }
 
-@media only screen and (max-width: 992px) {
-
+@media only screen and (max-width: 768px) {
+  .fade-in, .tag{
+    opacity: 1;
+  transform: translate(0, 0);
+  transition: all 0s;
+  }
 }

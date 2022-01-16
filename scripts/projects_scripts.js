@@ -56,8 +56,8 @@ document.getElementById("womeninIS").addEventListener("mouseout", function(){ove
 document.getElementById("PLC").addEventListener("mouseover", function(){displayOverlay("PLC")});
 document.getElementById("PLC").addEventListener("mouseout", function(){overlayOff("PLC")});
 
-document.getElementById("TMC").addEventListener("mouseover", function(){displayOverlay("TMC")});
-document.getElementById("TMC").addEventListener("mouseout", function(){overlayOff("TMC")});
+document.getElementById("TMC").addEventListener("mouseover", function(){displayOverlayCS("TMC")});
+document.getElementById("TMC").addEventListener("mouseout", function(){overlayOffCS("TMC")});
 
 document.getElementById("graphic_art").addEventListener("mouseover", function(){displayOverlayCS("graphic_art")});
 document.getElementById("graphic_art").addEventListener("mouseout", function(){overlayOffCS("graphic_art")});
