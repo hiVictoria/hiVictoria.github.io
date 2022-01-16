@@ -192,6 +192,9 @@ section {
   .colQuickfacts{
     display:none;
   }
+  .parallax {
+    background-image: url("../images/iso-mobile.png");
+  }
   .quickfacts{
     display:block;
   }

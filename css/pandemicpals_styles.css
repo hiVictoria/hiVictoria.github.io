@@ -120,13 +120,19 @@ display:none;
     .colQuickfacts{
       display:none;
     }
+    .parallax {
+      background-image: url("../images/iso-pandemic-pals-mobile.png");
+    }
     .quickfacts{
       display:block;
     }
     #top_heading{
       text-align:center;
     }
+    
   }
+
+
 
 @media only screen and (max-width: 992px) {
     .research-text{

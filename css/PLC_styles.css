@@ -141,6 +141,9 @@ section {
   #top_heading{
     text-align:center;
   }
+  .parallax {
+    background-image: url("../images/iso-PLC-mobile.png");
+  }
 }
 
 @media only screen and (max-width: 992px) {
