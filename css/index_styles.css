@@ -1,5 +1,4 @@
 a{
-  text-decoration-style:dotted ;
   text-decoration-thickness:2px;
 }
 
@@ -13,14 +12,13 @@ img{
 }
 
 .popup{
-  text-decoration-style:dotted ;
   text-decoration-thickness:2px;
   text-decoration-color:#2F9599;
   color: #2F9599 ;
 }
 
 .popup:hover{
-  text-decoration-style:solid;
+  text-decoration-thickness:3px;
 }
 
 #cmu{
