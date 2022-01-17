@@ -1,10 +1,9 @@
 a{
-  text-decoration-style:dotted ;
   text-decoration-thickness:2px;
 }
 
 h1{
-  padding-bottom:2em;
+  padding-bottom:1.5em;
 }
 img{
   height: 28em;
@@ -13,16 +12,21 @@ img{
 }
 
 .popup{
-  text-decoration-style:dotted ;
   text-decoration-thickness:2px;
   text-decoration-color:#2F9599;
   color: #2F9599 ;
 }
 
 .popup:hover{
-  text-decoration-style:solid;
+  text-decoration-thickness:3px;
 }
 
 #cmu{
   color:#2F9599;
 }
+
+
+#photos{
+  height: 30em;
+}
+
