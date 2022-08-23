@@ -1,3 +1,7 @@
+.black{
+  background-color: black;
+  color:white;
+}
 .orange{
   background-color: #EB7100;
   color:white;
@@ -5,6 +9,10 @@
 
 a{
   color:white;
+}
+
+a:hover{
+  color:black;
 }
 
 .contact-links{
@@ -51,4 +59,7 @@ a{
 }
 
 
+#illustration{
+  background-color:rgb(255, 236, 218);
 
+}
