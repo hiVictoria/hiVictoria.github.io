@@ -46,6 +46,8 @@ function darkenText(){
 function lightenText(){
     this.className = "nav-link text-muted";
 }
+document.getElementById("costar").addEventListener("mouseover", function(){displayOverlayCS("costar")});
+document.getElementById("costar").addEventListener("mouseout", function(){overlayOffCS("costar")});
 
 document.getElementById("pandemic_pals").addEventListener("mouseover", function(){displayOverlay("pandemic_pals")});
 document.getElementById("pandemic_pals").addEventListener("mouseout", function(){overlayOff("pandemic_pals")});
@@ -58,9 +60,6 @@ document.getElementById("PLC").addEventListener("mouseout", function(){overlayOf
 
 document.getElementById("TMC").addEventListener("mouseover", function(){displayOverlayCS("TMC")});
 document.getElementById("TMC").addEventListener("mouseout", function(){overlayOffCS("TMC")});
-
-document.getElementById("graphic_art").addEventListener("mouseover", function(){displayOverlayCS("graphic_art")});
-document.getElementById("graphic_art").addEventListener("mouseout", function(){overlayOffCS("graphic_art")});
 
 document.getElementById("graphic_square").addEventListener("mouseover", function(){displayOverlayCS("graphic_square")});
 document.getElementById("graphic_square").addEventListener("mouseout", function(){overlayOffCS("graphic_square")});

@@ -1,0 +1,26 @@
+body, html {
+    height: 100%;
+}
+
+
+.parallax {
+  background-image: url("../images/iso.png");
+
+  height: 25em;
+
+  /* Create parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#spacer{
+  height:50em;
+}
+
+#top{
+  padding:3em;
+  margin:1em;
+}

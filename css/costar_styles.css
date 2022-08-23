@@ -1,0 +1,54 @@
+.orange{
+  background-color: #EB7100;
+  color:white;
+}
+
+a{
+  color:white;
+}
+
+.contact-links{
+  color:black;
+  text-decoration:none;
+  /*font-weight:bold; */
+}
+
+.contact-links:hover{
+  color:black;
+  text-decoration:underline;
+  font-weight:bold; 
+}
+
+
+.icons{
+  height: 1.5em;
+  margin-left:1em;
+  width: 1.5em;
+  float:left;
+  object-fit:cover;
+  object-position: 100% 0;
+  object-position: 0 100%;
+}
+
+.tag {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+#costar-intro{
+  font-size:1.3em;
+}
+
+#contact{
+  background-color:rgb(255, 236, 218);
+  color:black;
+}
+
+
+
