@@ -186,6 +186,12 @@ section {
   font-size:1.5em;
 }
 
+#bonus{
+  border-color:#00488A; 
+  background-color:white;
+
+}
+
 #idea{
   font-size:1.7em;
   margin-bottom:.5em;
