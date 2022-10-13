@@ -15,6 +15,9 @@ a:hover{
   color:black;
 }
 
+.card{
+  background-color:rgb(255, 236, 218);
+}
 .contact-links{
   color:black;
   text-decoration:none;
@@ -62,4 +65,11 @@ a:hover{
 #illustration{
   background-color:rgb(255, 236, 218);
 
+}
+#password-enter{
+  color: white;
+}
+
+#password-enter:hover{
+  font-weight:bold;
 }
