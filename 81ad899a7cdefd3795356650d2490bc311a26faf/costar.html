@@ -15,6 +15,13 @@
         
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="css/costar_styles.css" />
+        <link rel="stylesheet" type="text/css" href="css/animation_styles.css" />
+
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@800&display=swap" rel="stylesheet">
 
     </head>
 
@@ -39,10 +46,8 @@
       <div class="container">
 
         <div class="row" style="padding-top:1em;">
-          <div id="top_heading" class="col">
-            <h1>Homes.com</h1>
-            <h3>Native Mobile App</h3><br>
-            <i><h4>Introducing a New Organizational Feature</h4></i>
+          <div id="top_heading" class="col pb-3">
+            <h4>Albums & Boards </h4><h6 class="text-muted">Introducing a New Organizational Feature for Homes.com</h6>
           </div>
 
           <div id="top" class="col-12">
@@ -103,64 +108,135 @@
         </div>
       </div> 
 
-      <div class="container" style="padding-top:3em;">
-        <h6 style="letter-spacing: .1em; padding-bottom:3em;">/ CONTEXT</h6>
-        <h4 style="text-align: center; padding-bottom:1.5em;">The Current State: Account Favorites & Likes</h4>
-        <div class = "row">
-          <div class = "col-lg col-sm-12 my-auto" style="padding-right:2em;">
-            <h5 style="text-align: center; padding-bottom:1em">Favorited Properties</h5> 
-            <div class="row  d-flex justify-content-center">
-              <div class= "col-lg-4 col-sm-6" >
-                <img src="images/Favorited Property.jpg" class="img-fluid shadow" alt="High fidelity wireframe of Homes.com search results page with list of property placards, the first of which has a red heart icon filled to indicate it has been favorited. ">
-              </div>
-              <div class= "col-lg-4 col-sm-6">
-                <img src="images/Favorites Account.jpg" class="img-fluid shadow" alt="High fidelity wireframe of Homes.com account favorites page with list of favorited property placards">
-              </div>
-            </div>
-            <p style="padding-top:1.3em; ">As part of the Novemeber launch, users on the Homes.com native app can save properties by 'Favoriting' a property. These Favorites can be found in their account profile under 'More' </p>
+      <div class="container" style="padding-top:5em;">
+
+        <div class="content Geologica d-flex justify-content-center" style="font-size:35px">
+          <div class="content__container">
+            <p class="content__container__text">
+              Why is the homebuying process so 
+            </p>
+            
+            <ul class="content__container__list" style="color:#EB7100">
+              <li class="content__container__list__item">stressful?</li>
+              <li class="content__container__list__item">impersonal?</li>
+              <li class="content__container__list__item">overwhelming?</li>
+              <li class="content__container__list__item">daunting?</li>
+            </ul>
           </div>
+        </div>
+      </div>
 
+      <div class="grey tag">
+        <div class="container" style="padding-top:3em; padding-bottom:4.5em">
 
-          <div class = "col-lg col-sm-12 my-auto" style="padding-right:2em;">
-            <h5 style="text-align: center; padding-bottom:1em">Liked Photos</h5> 
-            <div class="row d-flex justify-content-center">
-              <div class= "col-lg-4 col-sm-6" >
-                <img src="images/Liked Photos.png" class="img-fluid shadow" alt="High fidelity wireframe of gallery view from property listing page with the photos that have a liked thumbs-up icon, the first of which the thumbs-up icon filled to indicate it has been liked. ">
+          <h6 style="letter-spacing: .1em; padding-bottom:4em;">/ CONTEXT</h6>
+          <h3 style="text-align: center; padding-bottom:1.5em;">The Current State: Account Favorites & Likes</h3>
+          <div class = "row">
+            <div class = "col-lg col-sm-12 my-auto" style="padding-right:2em;">
+              <h5 style="text-align: center; padding-bottom:1em">Favorited Properties</h5> 
+              <div class="row  d-flex justify-content-center">
+                <div class= "col-lg-4 col-sm-6" >
+                  <img src="images/Favorited Property.jpg" class="img-fluid shadow" alt="High fidelity wireframe of Homes.com search results page with list of property placards, the first of which has a red heart icon filled to indicate it has been favorited. ">
+                </div>
+                <div class= "col-lg-4 col-sm-6">
+                  <img src="images/Favorites Account.jpg" class="img-fluid shadow" alt="High fidelity wireframe of Homes.com account favorites page with list of favorited property placards">
+                </div>
               </div>
-              <div class= "col-lg-4 col-sm-6" >
-                <img src="images/Liked Account.png" class="img-fluid shadow" alt="High fidelity wireframe of Homes.com account favorites page with list of liked photos">
-              </div>
+              <p style="padding-top:1.3em; "> Users on the Homes.com native app can save properties by "Favoriting" a property. These Favorites can be found in their account profile under 'More'. </p>
             </div>
-            <p style="padding-top:1.3em; ">In the case where users may not be interested in the property as a whole but reasonate with a particular photo from a part of the home, users can save specific photos by 'Liking' a photo</p>
-          </div>
 
+
+            <div class = "col-lg col-sm-12 my-auto" style="padding-right:2em;">
+              <h5 style="text-align: center; padding-bottom:1em">Liked Photos</h5> 
+              <div class="row d-flex justify-content-center">
+                <div class= "col-lg-4 col-sm-6" >
+                  <img src="images/Liked Photos.png" class="img-fluid shadow" alt="High fidelity wireframe of gallery view from property listing page with the photos that have a liked thumbs-up icon, the first of which the thumbs-up icon filled to indicate it has been liked. ">
+                </div>
+                <div class= "col-lg-4 col-sm-6" >
+                  <img src="images/Liked Account.png" class="img-fluid shadow" alt="High fidelity wireframe of Homes.com account favorites page with list of liked photos">
+                </div>
+              </div>
+              <p style="padding-top:1.3em; ">Users can save specific photos of a property by "Liking" a photo. These liked photos would also be found in their account favorites in 'More'.</p>
+            </div>
+
+
+          </div>
 
         </div>
+      </div>
 
+        <div class="container">
+          <h3 style="letter-spacing: 0em; text-align: center; padding-top:3em; padding-bottom:3em;">The Problem</h3>
+          <div class="row" style="padding-bottom:4em;">
+            <div class="col-lg-7 col-md-10 offset-lg-1" > 
+              <div class="row" style="margin-bottom:-1.5em">
+                <div> 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#084c8c" class="bi bi-1-square-fill" viewBox="0 0 16 16">
+                  <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Zm7.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383h1.312Z"/>
+                </svg></div>
+                <div style="position: relative; left: 35px; bottom:25px"><h5 style="padding-bottom:.5em; color:#084c8c">Deep Scrolling</h5></div>
+              </div>
+              
+              <div class="row">
+                <p style="padding-bottom:3.5em" class="tag">Currently, the app aggregates all of the user's favorited properties and liked photos in one place under their account profile. This leads to a deep scrolling issue when a user has 10, 15, 20+ items saved during their home buying process. <b>As their saved items accumulate, searching and sifting through this list becomes tedious and painful</b>. </p>
+              </div>
+                    
+              <div class="row" style="margin-bottom:-1.5em">
+                <div> 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#084c8c" class="bi bi-2-square-fill" viewBox="0 0 16 16">
+                    <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Zm4.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306Z"/>
+                  </svg></div>
 
-        <h3 style="letter-spacing: .1em; text-align: center; padding-top:3.5em; padding-bottom:2em;">The Problem</h3>
-        <div class="row" style="padding-bottom:4em;">
-          <div class="col-lg-7 col-md-10 offset-lg-1" > 
-            <h5 style="padding-bottom:.5em" class="tag">Deep Scrolling</h5> 
-            <p style="padding-bottom:1.3em" class="tag">Currently the app aggregates all the user's favorited properties and liked photos into one place under their account profile. This leads to a deep scrolling issue when a user has 10, 15, 20+ items saved during their home buying process. <b>As their saved items accumulate, searching and sifting through this list becomes tedious and painful</b> - how can we improve this so that the homebuying process is more seamless? </p>
-            
-            <h5 style="padding-bottom:.5em" class="tag">Lack of User Customization</h5> 
-            <p style="padding-bottom:1.3em" class="tag">Users may want to have the option to self organize their favorited homes or liked photos but currently don’t have the ability/functionality to, leading much to be desired in tailoring their saved – . How can we allow users to customize their experience and organize their saved items in the way they want to?
-            </p>
+                </div>
+                <div style="position: relative; left: 35px; bottom:0px"><h5 style="padding-bottom:.5em; color:#084c8c">Lack of User Customization</h5> </div>
+              
+                
+              <div class="row">
+                  <p style="padding-bottom:2.5em" class="tag">Users may want to have the option to self organize their favorited homes or liked photos but currently don’t have the ability to, leading much to be desired in tailoring their saved items.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 offset-lg-2 col-sm-7 mx-auto">
+              <video width="100%" height="auto" class="shadow" autoplay muted loop>
+                <source src="images/deep scrolling.mp4" type="video/mp4">
+              </video>
+            </div>
           </div>
 
-          <div class="col-lg-3 offset-lg-2 col-sm-7 mx-auto">
-            <video width="100%" height="auto" class="shadow" autoplay muted loop>
-              <source src="images/deep scrolling.mp4" type="video/mp4">
-            </video>
+        </div>
+      </div>
+
+      <div class="blue pb-5">
+        <div class="container" style="padding-top:7em; padding-bottom:2em;">
+          <h2><p class="Geologica tag" style="padding-bottom:2em">How can we <br> make the homebuying process <br><i>more seamless?</h2></i>
+          <h2><p class="Geologica tag" style="padding-bottom:1.3em"> How can we <br> empower users <br> to organize their saved items <br> in the way they want to?</h2></i>
+        </div>
+
+        <div class="container" style="padding-top:7em; padding-bottom:2em;">
+          <div class="content Geologica text-center" style="font-size:35px">
+            <div class="content__container">
+              <p class="content__container__text">
+                How can we make the homebuying process more
+              </p>
+              
+              <ul class="content__container__list"  style="color:#EB7100">
+                <li class="content__container__list__item">seamless?</li>
+                <li class="content__container__list__item">customizable?</li>
+                <li class="content__container__list__item">tailored?</li>
+                <li class="content__container__list__item">effortless?</li>
+              </ul>
+            </div>
           </div>
         </div>
 
       </div>
 
+
+
+
       <div class="orange pb-5">
         <div class="container pb-5">
-          <h3 class="tag" style="letter-spacing: .1em; text-align: center; padding-top:3em; padding-bottom:1em;">The Idea</h3>
+          <h3 class="tag" style="letter-spacing: 0em; text-align: center; padding-top:3em; padding-bottom:1em;">The Idea</h3>
 
           <hr>
           <div class="tag pt-5 mb-5 ">
@@ -175,7 +251,7 @@
           </div>
           
           <h5 style="padding-top:2em; padding-bottom:.5em">Previous Research</h5>
-          <p>Previous user research had been conducted in August 2021 by Anahita Sanandaji, PhD, gauging the user experience and flow of saving a property to account favorites. <b>Feedback testimonials from the research supported that users wanted this type of orgnaizational feature. </b></p> 
+          <p>Previous user research had been conducted in August 2021 by Anahita Sanandaji, PhD, gauging the user experience and flow of saving a property to account favorites. <br><b>Testimonials and feedback from the research supported that users wanted this organizational feature. </b></p> 
           <div class="row mt-5">
             <div class="col my-auto">
               <p class="quotes pb-2 tag">“being able to <b>save properties based on certain criteria..</b> or more advanced lists”</p>
@@ -191,15 +267,15 @@
       </div>
 
      
-      <div class="container">
+      <div class="container pb-3">
 
-        <h6 style="letter-spacing: .1em; padding-top:3em;">/ RESEARCH</h6>
-        <p class="pt-4 pb-3">Before beginning the design process, I worked with Costar's UX Research (UXR) team to determine how users engage with the Favoriting feature and in what ways they would like to organize their saved properties.</p>
+        <h6 style="letter-spacing: .1em; padding-top:5em;">/ RESEARCH</h6>
+        <p class="pt-4 pb-4">Before beginning the design process, I worked with Costar's UX Research (UXR) team to determine how users engage with the Favoriting feature and in what ways they evaluate and organize their saved properties.</p>
         
         <div class="col-lg-10 col-sm-12 mx-auto shadow tag">
           <div class="card mb-4 ">
             <div class="card-body p-4">
-              <h4 class="card-title">Background</h4>
+              <h4 class="card-title">Method</h4>
               <div class="row ms-2 ">
                 <ul class="border-start card-text larger-font">
                   <p class="">Think aloud survey that asked users to engage with Homes.com's Favoriting feature on mobile web</p>

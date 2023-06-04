@@ -10,9 +10,16 @@
   border-color:#EB7100; 
   background-color:#FFFCF7
  }
+ .grey{
+  background-color: #fbf3ee;
+ }
+ 
 .orange{
   background-color: #EB7100;
   color:white;
+}
+.Geologica{
+  font-family: 'Geologica', sans-serif;
 }
 
 a{
@@ -134,8 +141,8 @@ hr{
 }
 
 #top{
-  padding-bottom:3em;
-  padding-top:3em;
+  padding-bottom:2em;
+  padding-top:1em;
 }
 
 
