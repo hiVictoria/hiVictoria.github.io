@@ -72,11 +72,20 @@
 
         <div class="row pb-5">
           <div class="col-lg-6 col-sm-12 mx-auto">
-            <div class="card shadow text-center blueCard">
-              <div class="card-body p-4">
-                <h5 class="card-title mb-3 Geologica400" style="color:black"> Come Take a Look and Find Out!</h5>
+            <div class="text-center">
+              <div class=" p-4">
+                <!-- <h5 class="card-title mb-3 Geologica400" style="color:black"> How We !</h5> -->
                 <div class="row">
-                  <a  href="password.html" style="display:inline-block;"><button id="password-enter" type="button" class="btn btn-outline-dark btn-dark ps-4 pe-4" style="border-radius:1.5rem; color:white;">Enter Password</button></a>
+                  
+                    <div class="protected__alert" data-id="alert">Incorrect password</div>
+                    <div class="protected border">
+                      <div class="protected__content pt-5">
+                          <!-- <h1 class="protected__content__heading">Enter the password to continue</h1> -->
+                          <input class="protected__content__input" data-id="password" type="password" placeholder="Password"/>
+                          <button data-id="button" type="button" class="protected__content__btn">Submit Password</button>
+                      </div>
+                  </div>
+                  <!-- <a  href="password.html" style="display:inline-block;"><button id="password-enter" type="button" class="btn btn-outline-dark btn-dark ps-4 pe-4" style="border-radius:1.5rem; color:white;">Enter Password</button></a> -->
                 </div>
               </div>
             </div>
@@ -126,7 +135,7 @@
           </div>
           
           <br><br>
-          <p style="font-size:1.5em">If you have a password, find the project details <a href="password.html">here.</a></p>
+          <p class="Geologica400" style="font-size:1.5em">If you have a password, find the project details <a href="password.html">here.</a></p>
 
           <p class="pb-4">Because Homes.com still has features and designs planned for development and production, most of my work has not gone live yet. While I cannot currently publicly sharing my work here, <b>please reach out to me directly to see or discuss my work!</b></p>
           
@@ -193,5 +202,7 @@
      
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="scripts/costar_scripts.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-sha1/0.6.0/sha1.min.js"></script>
+    
     </body>
 </html>
