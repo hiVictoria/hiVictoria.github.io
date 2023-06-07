@@ -18,8 +18,14 @@
   background-color: #EB7100;
   color:white;
 }
-.Geologica{
+.Geologica400{
   font-family: 'Geologica', sans-serif;
+  font-weight: 400;
+}
+
+.Geologica800{
+  font-family: 'Geologica', sans-serif;
+  font-weight: 800;
 }
 
 a{
@@ -199,6 +205,10 @@ section {
 
 }
 
+#hidden{
+  display: none;
+}
+
 #idea{
   font-size:1.7em;
   margin-bottom:.5em;
@@ -282,3 +292,50 @@ section {
   }
 
 }
+
+@media only screen and (max-width: 992px) {
+  #hidden{
+      display:block;
+  }
+  #toHide{
+      display:none;
+  }
+}
+
+#stat{
+  font-size:10rem;
+  float:right;
+}
+
+/* @media only screen and (min-width: 992px) {
+  #stat{
+    float:right;
+    font-size: 12rem
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #statDiv{
+    margin-left:2em;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #stat{
+    float:right;
+    font-size:10rem;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  #stat{
+      float:none;
+      padding-left:0em;
+      font-size:10em;
+
+  }
+} */
+
+
+
