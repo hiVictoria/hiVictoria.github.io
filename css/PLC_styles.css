@@ -19,6 +19,34 @@ ul, p{
     padding:.25em;
     color:black;
   }
+
+  /* geologica-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Geologica';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/geologica-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* geologica-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Geologica';
+  font-style: normal;
+  font-weight: 800;
+  src: url('fonts/geologica-v1-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+  .Geologica400{
+    font-family: 'Geologica', sans-serif;
+    font-weight:400
+  }
+  
+  .Geologica800{
+    font-family: 'Geologica', sans-serif;
+    font-weight:800
+  }
+  
   .fade-in-image {
     animation: fadeIn 4s;
     -webkit-animation: fadeIn 4s;

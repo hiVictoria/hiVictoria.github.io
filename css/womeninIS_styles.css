@@ -19,6 +19,15 @@ body, html {
 .demos{
   text-align:center;
 }
+.Geologica400{
+  font-family: 'Geologica', sans-serif;
+  font-weight:400
+}
+
+.Geologica800{
+  font-family: 'Geologica', sans-serif;
+  font-weight:800
+}
 
 .fade-in{
   opacity: 0;
