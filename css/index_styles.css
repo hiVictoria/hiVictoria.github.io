@@ -10,7 +10,15 @@ img{
   margin: auto;
   display:none;
 }
+.Geologica400{
+  font-family: 'Geologica', sans-serif;
+  font-weight: 400;
+}
 
+.Geologica800{
+  font-family: 'Geologica', sans-serif;
+  font-weight: 600;
+}
 .popup{
   text-decoration-thickness:2px;
   text-decoration-color:#2F9599;

@@ -19,6 +19,16 @@ h2{
     width:58rem
 }
 
+.Geologica400{
+    font-family: 'Geologica', sans-serif;
+    font-weight: 400;
+  }
+  
+  .Geologica600{
+    font-family: 'Geologica', sans-serif;
+    font-weight: 600;
+  }
+  
 .titles{
     z-index:10000;
     text-align:center;
