@@ -10,6 +10,9 @@ img{
   margin: auto;
   display:none;
 }
+.highlight{
+  background-color: rgb(218, 246, 255);
+}
 .Geologica400{
   font-family: 'Geologica', sans-serif;
   font-weight: 400;
@@ -19,20 +22,29 @@ img{
   font-family: 'Geologica', sans-serif;
   font-weight: 600;
 }
-.popup{
-  text-decoration-thickness:2px;
-  text-decoration-color:#2F9599;
-  color: #2F9599 ;
+.highlight{
+  text-decoration: none;
+  padding-left:2px;
+  padding-right:2px;
+  /* text-decoration-thickness:2px;
+  text-decoration-color:#2F9599; */
+  background-color: rgb(218, 246, 255);
+  color: #1b888b ;
 }
 
-.popup:hover{
-  text-decoration-thickness:3px;
+.highlight:hover{
+  background-color: rgb(255, 221, 194);
+  color: #b14e11 ;
 }
 
 #cmu{
   color:#2F9599;
 }
 
+#cmu:hover{
+  background-color: rgb(255, 221, 194);
+  color: #b14e11 ;
+}
 
 #photos{
   height: 30em;
