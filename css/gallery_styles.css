@@ -1,0 +1,20 @@
+.Geologica400{
+    font-family: 'Geologica', sans-serif;
+    font-weight:400
+  }
+  .Geologica600{
+    font-family: 'Geologica', sans-serif;
+    font-weight:600
+  }
+
+.tag {
+    opacity: 0;
+    transform: translate(0, 10vh);
+    transition: all 1s;
+  }
+  
+  .tag.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  
