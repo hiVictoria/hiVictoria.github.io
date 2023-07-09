@@ -27,19 +27,19 @@
 
     </head>
 
-    <body style="background-color: #202020; color:white;">
+    <body style="background-color: #202020;">
         <!-- Nav Bar start-->
         <div class="container" >
-            <header id="nav" class="d-flex flex-wrap justify-content-center py-3  border-bottom">
-              <a href="index.html" class="d-flex align-items-center mb-md-0 me-md-auto text-light text-decoration-none">  
+            <header id="nav" class="d-flex flex-wrap justify-content-center py-3  border-bottom border-secondary">
+              <a href="index.html" class="d-flex align-items-center mb-md-0 me-md-auto text-muted text-decoration-none">  
                 <span class="fs-5">Victoria Zhang</span>
               </a>
         
               <ul class="nav nav-pills">
-                <li class="nav-item"><a href="index.html" id="nav_home" class="nav-link text-light">Home</a></li>
-                <li class="nav-item"><a href="projects.html" id="nav_projects" class="nav-link text-light">Projects</a></li>
-                <li class="nav-item"><a href="gallery.html" id="nav_gallery" class="nav-link text-light" aria-current="page">Gallery</a></li>
-                <a href="https://drive.google.com/file/d/1L6HulvSeS-4tVpI930f6gcq-_yYSs2NW/view" target="_blank" style="margin-left: .3em"><button type="button" class="btn btn-outline-light" style="border-radius:1.5rem;">Resume</button></a>
+                <li class="nav-item"><a href="index.html" id="nav_home" class="nav-link text-muted">Home</a></li>
+                <li class="nav-item"><a href="projects.html" id="nav_projects" class="nav-link text-muted">Projects</a></li>
+                <li class="nav-item"><a href="gallery.html" id="nav_gallery" class="nav-link text-muted" aria-current="page">Gallery</a></li>
+                <a href="https://drive.google.com/file/d/1L6HulvSeS-4tVpI930f6gcq-_yYSs2NW/view" target="_blank" style="margin-left: .3em"><button type="button" class="btn btn-outline-secondary" style="border-radius:1.5rem;">Resume</button></a>
               </ul>
             </header>
         </div>
@@ -48,19 +48,25 @@
         <!-- Content start-->
         <div style="background-color: #202020; color:white;" >
             
-            <div class="container pt-5">
+            <div class="container pt-4">
                 <h2 class="Geologica600"> Gallery</h2>
-                <p>A collection of my freelance and personal projects</p>
+                <p>A collection of my freelance and personal projects! </p>
+                <p class="Geologica400">Jump To: <a href="#artwork" class="highlight">Artwork 🎨</a>
+                <a href="#graphic_design" class="highlight">Graphic Design 😎</a> </p>
 
-                <div class="row pt-5">
-      
-                  <img src="images/gallery/artwork 1.png" class="img-fluid" alt="">
-                  <img src="images/gallery/artwork 2.png" class="img-fluid tag" alt="">
-                  <img src="images/gallery/artwork 3.png" class="img-fluid tag pb-5" alt="">
 
-                  <img src="images/gallery/EEFCFCU.png" class="img-fluid tag pb-3" alt="">
+                <div id="artwork" class="row pt-5">
+                  <img src="images/gallery/artwork 1.png" class="img-fluid tag-load" alt="">
+                  <img src="images/gallery/artwork 2.png" class="img-fluid tag-load" alt="">
+                  <img src="images/gallery/artwork 3.png" class="img-fluid tag pb-4" alt="">
+                  <img src="images/gallery/artwork 4.png" class="img-fluid tag pb-4" alt="">
+
+                </div>
+                
+                <div id="graphic_design" class="row pt-5">
+                  <img src="images/gallery/EEFCFCU.png" class="img-fluid tag pb-4" alt="">
                   <img src="images/gallery/Poster.png" class="img-fluid tag" alt="">
-                  <img src="images/gallery/colcom lemons.png" class="img-fluid tag" alt="">
+                  <img src="images/gallery/colcom lemons.png" class="img-fluid tag pb-2" alt="">
                   <img src="images/gallery/TMC.png" class="img-fluid tag" alt="">
 
                 </div>

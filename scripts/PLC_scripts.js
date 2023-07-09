@@ -13,3 +13,10 @@ $(document).on("scroll", function() {
       }
     }
   });
+  $(window).on("load", function() {
+    var tagsload = $(".tag-load");
+  
+    tagsload.addClass("visible");
+  });
+  
+  

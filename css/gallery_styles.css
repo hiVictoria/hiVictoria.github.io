@@ -1,20 +1,49 @@
+
 .Geologica400{
-    font-family: 'Geologica', sans-serif;
-    font-weight:400
-  }
-  .Geologica600{
-    font-family: 'Geologica', sans-serif;
-    font-weight:600
-  }
+  font-family: 'Geologica', sans-serif;
+  font-weight:400
+}
+.Geologica600{
+  font-family: 'Geologica', sans-serif;
+  font-weight:600
+}
+
+.highlight{
+  text-decoration: none;
+  padding-left:2px;
+  padding-right:2px;
+  /* text-decoration-thickness:2px;
+  text-decoration-color:#2F9599; */
+  background-color: rgb(218, 246, 255);
+  color: #0f7b7f ;
+}
+
+.highlight:hover{
+  background-color: rgb(255, 221, 194);
+  color: #b14e11 ;
+}
 
 .tag {
-    opacity: 0;
-    transform: translate(0, 10vh);
-    transition: all 1s;
-  }
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+
+.tag-load {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.tag-load.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
   
-  .tag.visible {
-    opacity: 1;
-    transform: translate(0, 0);
-  }
   
