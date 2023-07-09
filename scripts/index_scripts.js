@@ -42,6 +42,9 @@ document.getElementById("eating").addEventListener("mouseout", function(){displa
 document.getElementById("art").addEventListener("mouseover", function(){displayOn("art")});
 document.getElementById("art").addEventListener("mouseout", function(){displayOff("art")});
 
+document.getElementById("travel").addEventListener("mouseover", function(){displayOn("travel")});
+document.getElementById("travel").addEventListener("mouseout", function(){displayOff("travel")});
+
 document.getElementById("nav_home").addEventListener("mouseover", lightenText);
 document.getElementById("nav_home").addEventListener("mouseout", darkenText);
 document.getElementById("nav_projects").addEventListener("mouseover", lightenText);

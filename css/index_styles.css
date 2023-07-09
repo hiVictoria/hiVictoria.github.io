@@ -29,7 +29,7 @@ img{
   /* text-decoration-thickness:2px;
   text-decoration-color:#2F9599; */
   background-color: rgb(218, 246, 255);
-  color: #1b888b ;
+  color: #0f7b7f ;
 }
 
 .highlight:hover{
@@ -38,7 +38,7 @@ img{
 }
 
 #cmu{
-  color:#2F9599;
+  color: #0f7b7f ;
 }
 
 #cmu:hover{
