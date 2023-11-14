@@ -155,3 +155,10 @@ a:hover{
 .protected__content__btn:hover {
     background-color: black;
 }
+
+
+@media only screen and (max-width: 992px) {
+  .protected{
+    min-width:200px;
+  }
+}
