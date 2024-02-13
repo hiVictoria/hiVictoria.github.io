@@ -27,6 +27,9 @@ function lightenText(){
 document.getElementById("victoria").addEventListener("mouseover", function(){displayOn("victoria")});
 document.getElementById("victoria").addEventListener("mouseout", function(){displayOff("victoria")});
 
+document.getElementById("design").addEventListener("mouseover", function(){displayOn("design")});
+document.getElementById("design").addEventListener("mouseout", function(){displayOff("design")});
+
 document.getElementById("cmu").addEventListener("mouseover", function(){displayOn("cmu")});
 document.getElementById("cmu").addEventListener("mouseout", function(){displayOff("cmu")});
 
