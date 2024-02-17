@@ -52,6 +52,8 @@ document.getElementById("nav_home").addEventListener("mouseover", lightenText);
 document.getElementById("nav_home").addEventListener("mouseout", darkenText);
 document.getElementById("nav_projects").addEventListener("mouseover", lightenText);
 document.getElementById("nav_projects").addEventListener("mouseout", darkenText);
+document.getElementById("nav_gallery").addEventListener("mouseover", lightenText);
+document.getElementById("nav_gallery").addEventListener("mouseout", darkenText);
 
 
 
