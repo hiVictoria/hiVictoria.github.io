@@ -18,11 +18,6 @@
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="css/gallery_styles.css" />
 
-
-        <!-- Script -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script type="text/javascript" src="scripts/gallery_scripts.js"></script>
-        
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,22 +34,45 @@
     </head>
 
     <body style="background-color: black">
-        <!-- Nav Bar start-->
-        <div class="sticky" id="navbar">
+      <!-- Nav Bar start-->
+        <div class="" id="navbar-mobile">
+          <header id="nav" class="d-flex justify-content-center align-items-center py-1 border-bottom">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12"> 
+                  <a href="index.html" class="d-flex justify-content-center align-items-center text-dark text-decoration-none" style="margin-left:1.75em">
+                      <img id="avatar" src="images/avatar.png" alt="stylized avatar vector graphic of Victoria Zhang">
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 d-flex justify-content-center" id="pages">
+                  <ul class="nav nav-pills ml-auto" style="margin-right:2em">
+                  <li class="nav-item"><a href="index.html" id="nav_home" class="nav-link text-dark">Home</a></li>
+                  <li class="nav-item"><a href="projects.html" id="nav_projects" class="nav-link text-dark">Projects</a></li>
+                  <li class="nav-item"><a href="" id="nav_gallery" class="nav-link text-dark" aria-current="page">Gallery</a></li>
+                  <a href="https://drive.google.com/file/d/1L6HulvSeS-4tVpI930f6gcq-_yYSs2NW/view" target="_blank" style="margin-left: .3em"><button type="button" class="btn btn-outline-dark" style="border-radius:1.5rem;">Resume</button></a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </header>
+        </div>
+
+        <div class="" id="navbar">
           <header id="nav" class="d-flex flex-wrap justify-content-between align-items-center py-1 border-bottom">
-            <a href="index.html" class="d-flex align-items-center mb-md-0 me-md-auto text-decoration-none" style="margin-left:1.75em">
+            <a href="index.html" class="d-flex align-items-center mb-md-0 me-md-auto text-dark text-decoration-none" style="margin-left:1.75em">
               <img id="avatar" src="images/avatar.png" alt="stylized avatar vector graphic of Victoria Zhang">
-              <!-- <span id="victoria" class="fs-5" style="margin-left:.25em;">Victoria Zhang</span> -->
             </a>
       
             <ul class="nav nav-pills ml-auto" style="margin-right:2em">
               <li class="nav-item"><a href="index.html" id ="nav_home" class="nav-link text-dark">Home</a></li>
-              <li class="nav-item"><a href="projects.html" id ="nav_projects" class="nav-link text-dark" >Projects</a></li>
+              <li class="nav-item"><a href="projects.html" id ="nav_projects" class="nav-link text-dark">Projects</a></li>
               <li class="nav-item"><a href="" id="nav_gallery" class="nav-link text-dark" aria-current="page">Gallery</a></li>
-              <a href="https://drive.google.com/file/d/1L6HulvSeS-4tVpI930f6gcq-_yYSs2NW/view" target="_blank" style="margin-left: .3em"><button type="button" class="btn btn-outline-secondary" style="border-radius:1.5rem;">Resume</button></a>
+              <a href="https://drive.google.com/file/d/1L6HulvSeS-4tVpI930f6gcq-_yYSs2NW/view" target="_blank" style="margin-left: .3em"><button type="button" class="btn btn-outline-dark" style="border-radius:1.5rem;">Resume</button></a>
             </ul>
           </header>
-        </div>
+        </div> 
       <!-- Nav Bar end-->
 
         <!-- Content start-->
@@ -73,7 +91,6 @@
                   <img src="images/gallery/artwork 3.png" class="img-fluid tag-load pb-4" alt="oil painting of peaches hanging from a leafy branch, oil painting of water lillies and lilypads, charcoal artwork of a young man solemnly holding a lion mask ">
                   <img src="images/gallery/artwork 2.png" class="img-fluid tag pb-4" alt="oil painting of young boy with swallowtails flying around him, oil painting of sunflower field against a blue cloudy sky">
                   <img src="images/gallery/artwork 4.png" class="img-fluid tag pb-4" alt="oil painting of older chinese woman wearing a mask and cutting fruit, oil painting of two Moomin characters standing on a windy slope against a cloudy blue sky, charcoal and pencil illustration of a dog tearing meat contained inside the shape of a falling swallowtail">
-
                 </div>
                 
                 <div id="graphic_design" class="row pt-3">
@@ -94,6 +111,9 @@
               </div>
         </div>   
         <!-- Content end-->
-
+        
+        <!-- Script -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="scripts/gallery_scripts.js"></script>
     </body>
 </html>

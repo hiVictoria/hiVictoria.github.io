@@ -55,22 +55,20 @@ document.getElementById("nav_projects").addEventListener("mouseout", darkenText)
 document.getElementById("nav_gallery").addEventListener("mouseover", lightenText);
 document.getElementById("nav_gallery").addEventListener("mouseout", darkenText);
 
+// function changeColor() {
+//     var curr = document.getElementById("victoria").style.color;
+//     console.log(curr);
+//     if (curr == "rgb(47, 149, 153)"){
+//         document.getElementById("victoria").style.color = "#59709c ";
+//     }
+//     if (curr == "rgb(136, 212, 202)"){
+//         document.getElementById("victoria").style.color = "#2F9599";
+//     }
+//     else{
+//         document.getElementById("victoria").style.color = "#88d4ca"
+//     }
 
+// }
 
-function changeColor() {
-    var curr = document.getElementById("victoria").style.color;
-    console.log(curr);
-    if (curr == "rgb(47, 149, 153)"){
-        document.getElementById("victoria").style.color = "#59709c ";
-    }
-    if (curr == "rgb(136, 212, 202)"){
-        document.getElementById("victoria").style.color = "#2F9599";
-    }
-    else{
-        document.getElementById("victoria").style.color = "#88d4ca"
-    }
-
-}
-
-  document.getElementById("victoria").addEventListener("touchstart", changeColor);
+//   document.getElementById("victoria").addEventListener("touchstart", changeColor);
 

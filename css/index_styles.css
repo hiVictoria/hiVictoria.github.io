@@ -98,3 +98,30 @@ img{
   padding: 10px; /* Adjust padding as needed */
   z-index: 999; /* Adjust z-index as needed */
 }
+
+#navbar-mobile{
+  display:none;
+}
+
+@media only screen and (min-width: 768px) {
+  #bottom{
+    position: fixed; /* Fixed positioning */
+    right: 0; /* Positioning from the right side */
+    bottom: 0; /* Positioning from the bottom */
+    left: 0; /* Positioning from the left side */
+    z-index: 1030; /* Z-index to ensure it stays on top of other content */
+  }
+
+  header{
+    margin-bottom: 3.5em;
+  }
+}
+
+@media (max-width: 474px) {
+  #navbar{
+    display:none;
+  }
+  #navbar-mobile{
+    display:block;
+  }
+}

@@ -29,9 +29,6 @@ a:hover{
   font-weight: 800;
 }
 
-body{
-  padding-top: 6rem;
-}
 #navbar {
   position: fixed;
   top: 0;
@@ -216,5 +213,24 @@ body{
 @media only screen and (max-width: 992px) {
   .protected{
     min-width:200px;
+  }
+}
+
+#navbar-mobile{
+  display:none;
+}
+#content-padding{
+  padding-top:6em;
+}
+
+@media (max-width: 474px) {
+  #navbar{
+    display:none;
+  }
+  #navbar-mobile{
+    display:block;
+  }
+  #content-padding{
+    padding-top:1em;
   }
 }

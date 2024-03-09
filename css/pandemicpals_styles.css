@@ -10,9 +10,7 @@ a{
   font-weight: 400;
   color:rgba(0, 0, 0, 0)
 }
-body{
-  padding-top: 6rem;
-}
+
 #navbar {
   position: fixed;
   top: 0;
@@ -213,5 +211,20 @@ display:none;
 
 }
 
-
-
+#navbar-mobile{
+  display:none;
+}
+#content-padding{
+  padding-top:6em;
+}
+@media (max-width: 474px) {
+  #navbar{
+    display:none;
+  }
+  #navbar-mobile{
+    display:block;
+  }
+  #content-padding{
+    padding-top:1em;
+  }
+}

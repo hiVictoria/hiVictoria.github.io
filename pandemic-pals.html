@@ -32,25 +32,48 @@
 
     <body>
       <!-- Nav Bar start-->
-      <div class="sticky" id="navbar">
-          <header id="nav" class="d-flex flex-wrap align-items-center justify-content-center py-1 border-bottom">
-            <a href="index.html" class="d-flex align-items-center mb-md-0 me-md-auto text-dark text-decoration-none" style="margin-left:1.75em">  
-              <img id="avatar" src="images/avatar.png" alt="stylized avatar vector graphic of Victoria Zhang">
-              <!-- <span id= "victoria" class="fs-5">Victoria Zhang</span> -->
-            </a>
-      
-            <ul class="nav nav-pills" style="margin-right:2em">
+    <div class="" id="navbar-mobile">
+      <header id="nav" class="d-flex py-1 border-bottom">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12"> 
+              <a href="index.html" class="d-flex justify-content-center align-items-center text-dark text-decoration-none" style="margin-left:1.75em">
+                  <img id="avatar" src="images/avatar.png" alt="stylized avatar vector graphic of Victoria Zhang">
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 d-flex justify-content-center" id="pages">
+              <ul class="nav nav-pills ml-auto" style="margin-right:2em">
               <li class="nav-item"><a href="index.html" id="nav_home" class="nav-link text-dark">Home</a></li>
               <li class="nav-item"><a href="projects.html" id="nav_projects" class="nav-link text-dark">Projects</a></li>
               <li class="nav-item"><a href="gallery.html" id="nav_gallery" class="nav-link text-dark">Gallery</a></li>
               <a href="https://drive.google.com/file/d/1L6HulvSeS-4tVpI930f6gcq-_yYSs2NW/view" target="_blank" style="margin-left: .3em"><button type="button" class="btn btn-outline-dark" style="border-radius:1.5rem;">Resume</button></a>
-            </ul>
-          </header>
-      </div>
-      <!-- Nav Bar end-->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <div class="" id="navbar">
+      <header id="nav" class="d-flex flex-wrap justify-content-between align-items-center py-1 border-bottom">
+        <a href="index.html" class="d-flex align-items-center mb-md-0 me-md-auto text-dark text-decoration-none" style="margin-left:1.75em">
+          <img id="avatar" src="images/avatar.png" alt="stylized avatar vector graphic of Victoria Zhang">
+        </a>
+  
+        <ul class="nav nav-pills ml-auto" style="margin-right:2em">
+          <li class="nav-item"><a href="index.html" id ="nav_home" class="nav-link text-dark">Home</a></li>
+          <li class="nav-item"><a href="projects.html" id ="nav_projects" class="nav-link text-dark">Projects</a></li>
+          <li class="nav-item"><a href="gallery.html" id="nav_gallery" class="nav-link text-dark">Gallery</a></li>
+          <a href="https://drive.google.com/file/d/1L6HulvSeS-4tVpI930f6gcq-_yYSs2NW/view" target="_blank" style="margin-left: .3em"><button type="button" class="btn btn-outline-dark" style="border-radius:1.5rem;">Resume</button></a>
+        </ul>
+      </header>
+    </div> 
+    <!-- Nav Bar end-->
 
       <!-- Projects start-->
-      <div class="container">
+      <div class="container" id="content-padding">
 
         <div class="row" style="padding-top:1em;">
           <div id="top_heading" class="col">

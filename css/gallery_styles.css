@@ -85,3 +85,16 @@ button{
 	position: sticky;
 	top: 0;
 }
+
+#navbar-mobile{
+  display:none;
+}
+
+@media (max-width: 474px) {
+  #navbar{
+    display:none;
+  }
+  #navbar-mobile{
+    display:block;
+  }
+}

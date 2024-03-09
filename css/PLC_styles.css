@@ -11,9 +11,6 @@ a{
  p{
   font-size:1.2em;
 }
-body{
-  padding-top: 6rem;
-}
 
 #navbar {
   position: fixed;
@@ -50,7 +47,6 @@ body{
     color:black;
   }
 
-
   /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 /* @font-face {
@@ -60,7 +56,6 @@ body{
   font-weight: 400;
   src: url('fonts/geologica-v1-latin-regular.woff2') format('woff2'); 
 } */
-
 
   .Geologica400{
     font-family: 'Geologica', sans-serif;
@@ -126,9 +121,6 @@ body{
 
 
 
-
-
-
 .margin{
   padding-left:3em;
   padding-right:3em;
@@ -156,9 +148,6 @@ section {
   display:none;
 }
 
-  
-  
-
 
 
 
@@ -182,6 +171,9 @@ section {
   color:white;
 }
 
+#content-padding{
+  padding-top:6em;
+}
 
 
 @media only screen and (max-width: 576px) {
@@ -210,3 +202,18 @@ section {
   }
 }
   
+#navbar-mobile{
+  display:none;
+}
+
+@media (max-width: 474px) {
+  #navbar{
+    display:none;
+  }
+  #navbar-mobile{
+    display:block;
+  }
+  #content-padding{
+    padding-top:1em;
+  }
+}
