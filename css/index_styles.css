@@ -1,18 +1,39 @@
+body{
+  font-family: 'Geologica', sans-serif;
+  font-weight: 200;
+}
+
 a{
   text-decoration-thickness:2px;
+    /* font-size: larger; */
+  font-family: 'Geologica', sans-serif;
+  font-weight: 400;
+}
+#nav_projects:hover,#nav_home:hover,#nav_gallery:hover{
+  color:grey!important
 }
 
 h1{
-  padding-bottom:1.5em;
+  padding-bottom:1em;
 }
 img{
   height: 28em;
   margin: auto;
   display:none;
 }
+#design_img{
+  height:auto;
+  width: 40em;
+}
 .highlight{
   background-color: rgb(218, 246, 255);
 }
+
+.Geologica200{
+  font-family: 'Geologica', sans-serif;
+  font-weight: 400;
+}
+
 .Geologica400{
   font-family: 'Geologica', sans-serif;
   font-weight: 400;
@@ -28,9 +49,16 @@ img{
   padding-right:2px;
   /* text-decoration-thickness:2px;
   text-decoration-color:#2F9599; */
+  font-family: 'Geologica', sans-serif;
+  font-weight: 400;
   background-color: rgb(218, 246, 255);
   color: #066b6e ;
   /* color: #0f7b7f ; */
+}
+
+#victoria{
+  font-family: 'Geologica', sans-serif;
+  font-weight: 600;
 }
 
 .highlight:hover{
@@ -39,8 +67,34 @@ img{
   /* color: #b14e11 ; */
 }
 
+#avatar{
+  display:block;
+  height: 4rem;
+}
 
 #photos{
   height: 30em;
 }
 
+.css-blurry-gradient {
+  z-index: -5;
+  position: fixed;
+  top: 15%;
+  left: 70%;
+  transform: translate(-50%, 0%);
+  width: 35rem;
+  height: 35rem;
+    border-radius: 50% 22% 40% 80%;  
+    filter: blur(100px);
+  background: radial-gradient(circle at 50% 50%,rgb(60, 176, 230), rgba(255, 0, 0, 0));
+  opacity: 0.5;
+}
+
+.fixed-bottom {
+  position: fixed;
+  bottom: 2em;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px; /* Adjust padding as needed */
+  z-index: 999; /* Adjust z-index as needed */
+}

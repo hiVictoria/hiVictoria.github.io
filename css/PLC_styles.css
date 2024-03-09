@@ -1,13 +1,43 @@
 a{
     text-decoration:none;
-    color:black;
+   
+    font-family: 'Geologica', sans-serif;
+    font-weight: 400;
   }
   
   body, html {
       height: 100%;
   }
-ul, p{
+ p{
   font-size:1.2em;
+}
+body{
+  padding-top: 6rem;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px); 
+  transition: backdrop-filter 0.25s ease, -webkit-backdrop-filter 0.3s ease, border 0.1s ease, box-shadow .25s ease;
+}
+.sticky {
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+#avatar{
+  height: 4rem;
+  width:4rem
+}  
+
+#nav_projects:hover,#nav_home:hover,#nav_gallery:hover{
+  color:grey !important;
 }
 
   .margin{
@@ -20,22 +50,17 @@ ul, p{
     color:black;
   }
 
-  /* geologica-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+/* @font-face {
+  font-display: swap; 
   font-family: 'Geologica';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/geologica-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* geologica-800 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geologica';
-  font-style: normal;
-  font-weight: 800;
-  src: url('fonts/geologica-v1-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
+  src: url('fonts/geologica-v1-latin-regular.woff2') format('woff2'); 
+} */
+
 
   .Geologica400{
     font-family: 'Geologica', sans-serif;
@@ -113,8 +138,8 @@ ul, p{
   background-color:#AEDD96;
 }
 #top{
-  padding-bottom:3em;
-  padding-top:3em;
+  padding-bottom:2em;
+  padding-top:2em;
 }
 
 section {
@@ -184,3 +209,4 @@ section {
     background-attachment: scroll;
   }
 }
+  

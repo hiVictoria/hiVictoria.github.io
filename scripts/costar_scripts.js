@@ -79,3 +79,29 @@ $(window).on('resize', function() {
           login(password[0].value)
       }
   }
+
+const myNav = document.getElementById('navbar')
+const trigger = document.getElementById('orange')
+
+window.onscroll = function() {
+  const triggerY = trigger.getBoundingClientRect().y
+  const navLinks = document.getElementsByClassName('header-link')
+  const button = document.getElementById("button")
+
+  if(73 > triggerY){
+    myNav.classList.add('scroll-color')
+    for (var i=0; i<navLinks.length; i++){
+      navLinks[i].classList.remove('text-dark')
+      navLinks[i].classList.add('scroll-link')
+      button.classList.add('button-color')
+    }
+
+  }else{
+    myNav.classList.remove('scroll-color')
+    for (var i=0; i<navLinks.length; i++){
+      navLinks[i].classList.remove('scroll-link')
+      navLinks[i].classList.add('text-dark')
+      button.classList.remove('button-color')
+    }
+  }
+}

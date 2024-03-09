@@ -1,3 +1,8 @@
+a{
+  /* font-size: larger; */
+  font-family: 'Geologica', sans-serif;
+  font-weight: 400;
+}
 
 .Geologica400{
   font-family: 'Geologica', sans-serif;
@@ -34,7 +39,6 @@
   transform: translate(0, 0);
 }
 
-
 .tag-load {
   opacity: 0;
   transform: translate(0, 10vh);
@@ -46,7 +50,38 @@
   transform: translate(0, 0);
 }
 
-#victoria:hover{
-  color: white;
+.nav-link{
+  color:rgb(175, 175, 175) !important;
 }
+.nav-link:hover{
+  color:white !important ;
+}
+button{
+  color:rgb(175, 175, 175) !important
+}
+
+.btn:hover{
+  background-color: white;
+  color:black !important; 
+}
+
+#navbar{
+  z-index: 1000;
+  background-color: black;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px); 
+  transition: backdrop-filter 0.25s ease, -webkit-backdrop-filter 0.3s ease, border 0.1s ease, box-shadow .25s ease;
+  margin-bottom: 0px;
+}
+
+#avatar{
+  height: 4rem;
+  width:4rem
+}  
   
+.sticky {
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}

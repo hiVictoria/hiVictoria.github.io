@@ -19,21 +19,27 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@800&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@400;800&display=swap" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@200;400;600;800&display=swap" rel="stylesheet">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
     </head>
 
     <body>
         <!-- Nav Bar start-->
-        <div class="container">
-            <header id="nav" class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-              <a href="index.html" class="d-flex align-items-center mb-md-0 me-md-auto text-dark text-decoration-none">
-                
-                <span class="fs-5">Victoria Zhang</span>
+        <div class="" id="navbar">
+            <header id="nav" class="d-flex flex-wrap justify-content-between align-items-center py-1 border-bottom">
+              <a href="index.html" class="d-flex align-items-center mb-md-0 me-md-auto text-dark text-decoration-none" style="margin-left:1.75em">
+                <img id="avatar" src="images/avatar.png" alt="stylized avatar vector graphic of Victoria Zhang">
+                <!-- <span id="victoria" class="fs-5" style="margin-left:.25em;">Victoria Zhang</span> -->
               </a>
         
-              <ul class="nav nav-pills">
+              <ul class="nav nav-pills ml-auto" style="margin-right:2em">
                 <li class="nav-item"><a href="index.html" id ="nav_home" class="nav-link text-dark">Home</a></li>
                 <li class="nav-item"><a href="" id ="nav_projects" class="nav-link text-dark" aria-current="page">Projects</a></li>
                 <li class="nav-item"><a href="gallery.html" id="nav_gallery" class="nav-link text-dark">Gallery</a></li>
@@ -45,77 +51,86 @@
 
         <!-- Projects start-->
 
-        <div class="container" style="padding-top: 2em;">
-            <div class="row">
-                <div id="projects">
-                    <h2 class="Geologica600">Projects</h2>
+        <div class="container" style="padding-top: 3em; max-width: 76rem;">
+            <div class="row justify-content-center pt-4" >
+                
+                <div class="col parent justify-content-center">
+                        <div class="gradient" id="orange"></div>
+                        <div style=" position: relative;">
+                            <div class="titles">HOMES.COM</div>
+                            <div class="glass" id="homes">
+                                <a href="costar.html" class="">
+                                    <img src="images/costar.png" class="img" alt="Costar - Homes.com project">
+                                    <!-- <div class="card-img-overlay titles" style="text-align: center; :hover{color: white;font-size: 36px; font-weight: 800;} ">Homes.com</div> --> 
+                                </a>          
+                            </div>
+                        </div>
+                       
                 </div>
 
-                <a class="card_links" href="costar.html">
-                    <div id="costar" class="card bg-white text-white col-lg-4 shadow" style="width: 28rem;">
-                        <img src="images/Costar.png" class="card-img" alt="Costar - Homes.com project">
-                        <div class="card-img-overlay rounded">
-                            <h3 id="costar_title" class="card-title titles Geologica400">Costar - Homes.com</h3>
+                <div class="col parent justify-content-center breakpoint">
+                    <div class="gradient" id="blue"></div>
+                    <div style=" position: relative;">
+                        <div class="titles">WOMEN IN IS</div>
+                        <div class="glass" id="womeninIS">
+                            <a href="womeninIS.html">
+                                <img src="images/womeninis.png" class="img" alt="Women in IS website project">
+                            </a>
                         </div>
                     </div>
-                </a>
-
-                <a class="card_links" href="womeninIS.html">
-                    <div id="womeninIS" class="card bg-white text-white col-lg-4 shadow" style="width: 28rem;">
-                        <img src="images/Women in IS.png" class="card-img" alt="Women in IS website project">
-                        <div class="card-img-overlay">
-                            <h3 id="womeninIS_title" class="card-title titles Geologica400">Women in IS</h3>
-                        </div>
-                    </div>
-                </a>
+                </div>          
             </div>
+            
 
-            <div class="row">
-                <a class="card_links" href="PLC.html">
-                    <div id="PLC" class="card bg-white text-white col-4 shadow" style="width: 28rem;">
-                        <img src="images/PLC.png" class="card-img" alt="Pittsburgh Learning Commons Website project">
-                        <div class="card-img-overlay">
-                        <h3 id="PLC_title" class="card-title titles Geologica400">Pittsburgh Learning Commons</h3>
-                        </div>
-                    </div>
-                </a>
-
-                <a class="card_links" href="pandemic-pals.html">
-                    <div id="pandemic_pals" class="card bg-white text-white col-4 shadow" style="width: 28rem;">
-                        <img src="images/pandemic pals.png" class="card-img" alt="Pandemic Pals app project">
-                        <div class="card-img-overlay">
-                        <h3 id="pandemic_pals_title" class="card-title titles Geologica400">Pandemic Pals</h3>
-                        </div>
-                    </div>
-                </a>
-
+            <div class="row justify-content-center pt-4" style="margin-top: 5em;">
                 
-            </div>
+                <div class="col parent justify-content-center">
+                        <div class="gradient" id="green"></div>
+                        <div style=" position: relative;">
 
-            <div class="row">
-                <a class="card_links">
-                    <div id="TMC" class="card bg-white text-white col-4 shadow" style="width: 28rem;">
-                        <img src="images/TMC.png" class="card-img" alt="Thomas Merton Center website project">
-                        <div class="card-img-overlay">
-                        <h3 id="TMC_title" class="card-title titles text-muted Geologica400">Thomas Merton Center</h3>
-                        <h5 id="TMC_cs" class="card-title titles text-muted Geologica400">Coming Soon</h5>
+                            <div class="titles">PLC</div>
+                            <div class="glass" id="plc">
+                                <a href="PLC.html" class="">
+                                    <img src="images/PLC.png" class="img" alt="Pittsburgh Learning Commons project">
+                                    <!-- <div class="card-img-overlay titles" style="text-align: center; :hover{color: white;font-size: 36px; font-weight: 800;} ">Homes.com</div> --> 
+                                </a>          
+                            </div>
+                        </div>
+                        
+                </div>
 
+                <div class="col parent justify-content-center breakpoint">
+                    <div class="gradient" id="purple"></div>
+                    <div style=" position: relative;">
+                        <div class="titles">PANDEMIC PALS</div>
+                        <div class="glass" id="pandemicpals">
+                            <a href="pandemic-pals.html">
+                                <img src="images/pandemicpals.png" class="img" alt="Pandemic Pals project">
+                            </a>
                         </div>
                     </div>
-                </a>
-
-                <a class="card_links" href="gallery.html">
-                    <div id="graphic_square" class="card bg-white text-white col-4 shadow" style="width: 28rem;">
-                        <img src="images/graphic_square.png" class="card-img" alt="Collage of different graphic design images created by Victoria">
-                        <div class="card-img-overlay">
-                        <h3 id="graphic_square_title" class="card-title titles Geologica400">Creative Work Gallery</h3>
-                        </div>
-                    </div>
-                </a>
+                </div>          
             </div>
 
-            <div class="text-muted d-flex justify-content-center" style="font-size:10px; padding-top: 3em;">
-                <p>Made with ❤️ by Victoria Zhang </p>
+            <div class="row justify-content-center pt-4" style="margin-top: 5em;">
+                <div class="parent justify-content-center">
+                        <div class="wide-gradient" id="black"></div>
+                        <div style=" position: relative;">
+                            <div class="titles">CREATIVE WORK</div>
+                            <div class="wide-glass" id="creative">
+                                <a href="gallery.html" class="">
+                                    <img src="images/creative work.png" class="img" alt="Pittsburgh Learning Commons project">
+                                </a>          
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+
+               
+
+            <div class="text-muted d-flex justify-content-center mt-4 mb-4" style="font-size:10px; padding-top: 3em;">
+                <p>Made with ❤️ by Victoria Zhang</p>
             </div>
                
             
@@ -124,6 +139,6 @@
 
         <!-- Script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script type="text/javascript" src="scripts/projects_scripts.js"></script>
+        <script type="text/javascript" src=""></script>
     </body>
 </html>

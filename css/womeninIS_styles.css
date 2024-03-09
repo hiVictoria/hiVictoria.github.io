@@ -1,6 +1,13 @@
 a{
   text-decoration:none;
   color:black;
+  font-family: 'Geologica', sans-serif;
+}
+
+.header-link{
+  font-family: 'Geologica', sans-serif;
+  font-weight: 400;
+  color:rgb(0, 0, 0)
 }
 
 body, html {
@@ -27,6 +34,75 @@ body, html {
 .Geologica800{
   font-family: 'Geologica', sans-serif;
   font-weight:800
+}
+
+body{
+  padding-top: 6rem;
+}
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px); 
+  transition: backdrop-filter 0.25s ease, -webkit-backdrop-filter 0.3s ease, border 0.1s ease, box-shadow .25s ease;
+}
+  
+.sticky {
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+#avatar{
+  height:4rem;
+  width:4rem
+}  
+
+.scroll-color{
+  /* background: rgba(235, 114, 0, 0.8); */
+  background: rgba(38, 42, 48, 0.9);
+}
+
+.scroll-color-blue{
+  /* background: rgba(90, 168, 197, 0.9); */
+  background: rgba(90, 173, 201, 0.9);
+
+  /* background: rgba(90, 151, 201, 0.9); */
+}
+
+.scroll-link{
+  color:white
+}
+.btn{
+  border-color: black;
+}
+.btn:hover{
+  color:white;
+  background-color: black;
+  border-color:white;
+}
+
+#nav_projects:hover,#nav_home:hover,#nav_gallery:hover{
+  color:grey ;
+}
+
+.nav-white{
+  color:white !important;
+}
+
+.hover-blue{
+  color:rgb(203, 242, 255) !important;
+}
+.hover-white{
+  background-color:white !important;
+  color:rgb(90, 173, 201) !important;
+}
+.btn-white{
+  color:white;
+  border-color:white;
 }
 
 .fade-in{
@@ -95,8 +171,8 @@ body, html {
 }
 
 #top{
-  padding-bottom:3em;
-  padding-top:3em;
+  padding-bottom:2em;
+  padding-top:2em;
 }
 
 
@@ -273,9 +349,6 @@ section {
   #mobile{
     margin-top:3em;
   }
-
-
-
 }
 
 

@@ -42,6 +42,39 @@ hr{
   margin:auto;
 }
 
+body{
+  padding-top: 6rem;
+}
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px); 
+  transition: backdrop-filter 0.25s ease, -webkit-backdrop-filter 0.3s ease, border 0.1s ease, box-shadow .25s ease;
+}
+  
+.sticky {
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+#victoria:hover{
+  color: grey;
+}
+#nav_projects:hover,#nav_home:hover,#nav_gallery:hover{
+  color:grey !important;
+}
+
+.header-link{
+  font-family: 'Geologica', sans-serif;
+  font-weight: 400;
+  color:rgba(0, 0, 0, 0)
+}
+
 .contact-links{
   color:black;
   text-decoration:none;
@@ -147,7 +180,7 @@ hr{
 }
 
 #top{
-  padding-bottom:2em;
+  padding-bottom:1.5em;
   padding-top:1em;
 }
 

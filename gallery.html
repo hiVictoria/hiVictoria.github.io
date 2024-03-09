@@ -25,28 +25,36 @@
         <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@400;800&display=swap" rel="stylesheet">
 
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
     </head>
 
-    <body style="background-color: #202020;">
+    <body style="background-color: black">
         <!-- Nav Bar start-->
-        <div class="container" >
-            <header id="nav" class="d-flex flex-wrap justify-content-center py-3  border-bottom border-secondary">
-              <a href="index.html" class="d-flex align-items-center mb-md-0 me-md-auto text-muted text-decoration-none">  
-                <span id= "victoria" class="fs-5">Victoria Zhang</span>
-              </a>
-        
-              <ul class="nav nav-pills">
-                <li class="nav-item"><a href="index.html" id="nav_home" class="nav-link text-muted">Home</a></li>
-                <li class="nav-item"><a href="projects.html" id="nav_projects" class="nav-link text-muted">Projects</a></li>
-                <li class="nav-item"><a href="gallery.html" id="nav_gallery" class="nav-link text-muted" aria-current="page">Gallery</a></li>
-                <a href="https://drive.google.com/file/d/1L6HulvSeS-4tVpI930f6gcq-_yYSs2NW/view" target="_blank" style="margin-left: .3em"><button type="button" class="btn btn-outline-secondary" style="border-radius:1.5rem;">Resume</button></a>
-              </ul>
-            </header>
+        <div class="sticky" id="navbar">
+          <header id="nav" class="d-flex flex-wrap justify-content-between align-items-center py-1 border-bottom">
+            <a href="index.html" class="d-flex align-items-center mb-md-0 me-md-auto text-decoration-none" style="margin-left:1.75em">
+              <img id="avatar" src="images/avatar.png" alt="stylized avatar vector graphic of Victoria Zhang">
+              <!-- <span id="victoria" class="fs-5" style="margin-left:.25em;">Victoria Zhang</span> -->
+            </a>
+      
+            <ul class="nav nav-pills ml-auto" style="margin-right:2em">
+              <li class="nav-item"><a href="index.html" id ="nav_home" class="nav-link text-dark">Home</a></li>
+              <li class="nav-item"><a href="projects.html" id ="nav_projects" class="nav-link text-dark" >Projects</a></li>
+              <li class="nav-item"><a href="" id="nav_gallery" class="nav-link text-dark" aria-current="page">Gallery</a></li>
+              <a href="https://drive.google.com/file/d/1L6HulvSeS-4tVpI930f6gcq-_yYSs2NW/view" target="_blank" style="margin-left: .3em"><button type="button" class="btn btn-outline-secondary" style="border-radius:1.5rem;">Resume</button></a>
+            </ul>
+          </header>
         </div>
       <!-- Nav Bar end-->
 
         <!-- Content start-->
-        <div style="background-color: #202020; color:white;" >
+        <div style="background-color: black; color:white;" >
             
             <div class="container pt-4">
                 <h2 class="Geologica600"> Gallery</h2>
@@ -55,24 +63,26 @@
                 <a href="#graphic_design" class="highlight">Graphic Design 😎</a> </p>
 
 
-                <div id="artwork" class="row pt-5">
+                <div id="artwork" class="row pt-3">
                   <img src="images/gallery/artwork 1.png" class="img-fluid tag-load pb-4" alt="arylic painting of girl wearing a crown of plants, oil painting of a older cowboy playing an accordion, oil painting of a red haired girl with her hand raised to shade her face">
-                  <img src="images/gallery/artwork 2.png" class="img-fluid tag-load pb-4" alt="oil painting of young boy with swallowtails flying around him, oil painting of sunflower field against a blue cloudy sky">
-                  <img src="images/gallery/artwork 3.png" class="img-fluid tag pb-4" alt="oil painting of peaches hanging from a leafy branch, oil painting of water lillies and lilypads, charcoal artwork of a young man solemnly holding a lion mask ">
+                  <img src="images/gallery/artwork 3.png" class="img-fluid tag-load  pb-4" alt="oil painting of peaches hanging from a leafy branch, oil painting of water lillies and lilypads, charcoal artwork of a young man solemnly holding a lion mask ">
+                  <img src="images/gallery/artwork 2.png" class="img-fluid tag pb-4" alt="oil painting of young boy with swallowtails flying around him, oil painting of sunflower field against a blue cloudy sky">
                   <img src="images/gallery/artwork 4.png" class="img-fluid tag pb-4" alt="oil painting of older chinese woman wearing a mask and cutting fruit, oil painting of two Moomin characters standing on a windy slope against a cloudy blue sky, charcoal and pencil illustration of a dog tearing meat contained inside the shape of a falling swallowtail">
 
                 </div>
                 
-                <div id="graphic_design" class="row pt-5">
+                <div id="graphic_design" class="row pt-3">
+                  <h4 class="Geologica600 tag pb-3">Graphic Design</h4>
                   <img src="images/gallery/EEFCFCU.png" class="img-fluid tag pb-4" alt="various graphics including a poster, social media posts and a brochure created for the East End Food Co-op">
-                  <img src="images/gallery/Poster.png" class="img-fluid tag pb-4" alt="poster for Pittsburgh Arts & Lectures, storyboard poster for Momento, poster for The Devil is a Lie theater performance">
-                  <img src="images/gallery/colcom lemons.png" class="img-fluid tag pb-4" alt="billboard graphic for Thomas Merton advocating for immigrant support, editorial graphic of girl surrounded by lemons and plants">
-                  <img src="images/gallery/TMC.png" class="img-fluid tag pb-4" alt="social media graphic for Thomas Merton Center thanking members for support, graphic for End the Deadly Exchange, social media graphic celebrating Helen Zia for AAPI month">
+                  <img src="images/gallery/Posters 2.png" class="img-fluid tag pb-4" alt="UXD Design Team Motto poster, poster mobile app">
+                  <img src="images/gallery/Posters 1.png" class="img-fluid tag pb-4" alt="poster for Pittsburgh Arts & Lectures, storyboard poster for Momento, poster for The Devil is a Lie theater performance">
+                  <img src="images/gallery/AAPI.png" class="img-fluid tag pb-4" alt="billboard graphic for Thomas Merton advocating for immigrant support, social media graphic celebrating Helen Zia for AAPI month">
+                  <img src="images/gallery/TMC.png" class="img-fluid tag pb-4" alt="social media graphic for Thomas Merton Center thanking members for support, graphic for End the Deadly Exchange, editorial graphic of girl surrounded by lemons and plants">
 
                 </div>
       
-                <div class="text-muted d-flex justify-content-center pb-3" style="font-size:10px; padding-top: 3em;">
-                  <p>Made with ❤️ by Victoria Zhang </p>
+                <div class="d-flex justify-content-center pb-3" style="font-size:10px; padding-top: 3em; color:rgb(175, 175, 175)">
+                  <p>Made with ❤️ by Victoria Zhang</p>
                   
                 </div>
                  

@@ -22,20 +22,30 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@600&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@400;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@200;400;800&display=swap" rel="stylesheet">
 
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
     </head>
 
     <body>
         <!-- Nav Bar start-->
-        <div class="container">
-          <header id="nav" class="d-flex justify-content-end flex-wrap py-3 mb-4 border-bottom">
-            <ul class="nav nav-pills">
+        <div class="sticky" id="navbar">
+          <header id="nav" class="d-flex  justify-content-between align-items-center flex-wrap py-1 mb-5 border-bottom" >
+            <a href="index.html" class="d-flex align-items-center mb-md-0 me-md-auto text-dark text-decoration-none" style="margin-left:1.75em">
+              <img id="avatar" src="images/avatar.png" alt="stylized avatar vector graphic of Victoria Zhang">
+            </a>
+
+            <ul class="nav nav-pills ml-auto" style="margin-right:2em">
               <li class="nav-item"><a href="" id="nav_home" class="nav-link text-dark" aria-current="page">Home</a></li>
               <li class="nav-item"><a href="projects.html" id="nav_projects" class="nav-link text-dark" >Projects</a></li>
               <li class="nav-item"><a href="gallery.html" id="nav_gallery" class="nav-link text-dark">Gallery</a></li>
               <a href="https://drive.google.com/file/d/1L6HulvSeS-4tVpI930f6gcq-_yYSs2NW/view" target="_blank" style="margin-left: .3em"><button type="button" class="btn btn-outline-dark" style="border-radius:1.5rem;">Resume</button></a>
-
             </ul>
           </header>
       </div>
@@ -43,20 +53,21 @@
 
         <!-- About start-->
         <div class="container content">
-          <div class="row">
+          <div class="row pt-5">
         
-            <div id="" >
-                <h1 class="Geologica800">Hi! I'm <u id="victoria" class="highlight">Victoria</u>.</h1>
-
-            </div>
-            <div class="col-6" height="28em" class="justify-content-center my-auto align-items-center align-middle">
-              <p>I graduated from <a href="https://www.cmu.edu/" target="_blank" class="link highlight" id="cmu">Carnegie Mellon University</a> with a degree in Information Systems. I care about using  <a href="projects.html" id ="design" class="highlight">design</a> & technology for good to improve communities and organizations around me.</p>
-              <p>I enjoy <u id="cooking" class="highlight">cooking</u> (and <u id="eating" class="highlight">eating!</u>) good food, <u id="travel" class="highlight">traveling</u> to new destinations, getting lost in <u id="nature" class="highlight">nature</u>, and telling stories through my <a href="gallery.html" class="link highlight" id="art">art</a>.</p>
+            <div id="" class="col-6">
+                <h1 class="Geologica800">Hi! I'm <u id="victoria" class="highlight mt-1">Victoria</u>.</h1>
+      
+              <div  height="28em" class="justify-content-center my-auto align-items-center align-middle">
+                <p>I graduated from <a href="https://www.cmu.edu/" target="_blank" class="link highlight" id="cmu">Carnegie Mellon University</a> with a degree in Information Systems. <br> I care about using  <a href="projects.html" id ="design" class="highlight">design</a> & technology for good to improve communities and organizations around me.</p>
+                <p>I enjoy <u id="cooking" class="highlight">cooking</u> (and <u id="eating" class="highlight">eating!</u>) good food, <u id="travel" class="highlight">traveling</u> to new destinations, getting lost in <u id="nature" class="highlight">nature</u>, and telling stories through my <a href="gallery.html" class="link highlight" id="art">artwork</a>.</p>
+              </div>
             </div>
 
             <div id="photos" class="col-6">
               <img id = "victoria_img" src="images/Victoria Zhang.jpg" alt="Photo of Victoria Zhang">
               <img id = "cmu_img" src="images/CMU.jpg" alt="Photo of Carnegie Mellon University campus taken at sunset">
+              <img id = "design_img" src="images/design.png" alt="Collage of various design projects">
               <img id = "nature_img" src="images/nature.jpg" alt="Photo of rusting white truck obscured by tall leafy foliage in a green field">
               <img id = "cooking_img" src="images/cooking.png" alt="Collage of various homemade foods">
               <img id = "eating_img" src="images/eating.jpg" alt="Photo of Victoria eating a bowl of ramen">
@@ -65,13 +76,15 @@
 
             </div>
 
+            <div class="col-6 css-blurry-gradient">
+            </div>
             
   
 
           </div>
 
-          <div class="text-muted d-flex justify-content-center" style="font-size:10px; padding-top: 3em;">
-            <p>Made with ❤️ by Victoria Zhang </p>
+          <div class="text-muted d-flex justify-content-center fixed-bottom" style="font-size:10px; padding-top: 10em;">
+            <p>Made with ❤️ by Victoria Zhang</p>
           </div>
            
         </div>
