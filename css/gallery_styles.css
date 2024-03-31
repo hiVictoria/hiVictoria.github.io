@@ -65,15 +65,24 @@ button{
   color:black !important; 
 }
 
-#navbar{
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
   z-index: 1000;
   background-color: black;
   background: rgba(0, 0, 0, 0.75);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px); 
-  transition: backdrop-filter 0.25s ease, -webkit-backdrop-filter 0.3s ease, border 0.1s ease, box-shadow .25s ease;
+  transition:top 0.4s ease-in-out;
   margin-bottom: 0px;
 }
+.nav-up {
+  top: -120px;
+}
+#content-padding{
+  padding-top:5em;
+} 
 
 #avatar{
   height: 4rem;

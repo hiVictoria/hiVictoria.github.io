@@ -36,14 +36,19 @@ body, html {
   font-weight:800
 }
 
-#navbar {
+header {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 9999;
   backdrop-filter: blur(2px);
+  background-color: rgba(255, 255, 255, 0.712);
   -webkit-backdrop-filter: blur(2px); 
-  transition: backdrop-filter 0.25s ease, -webkit-backdrop-filter 0.3s ease, border 0.1s ease, box-shadow .25s ease;
+  /* transition: backdrop-filter 0.25s ease, -webkit-backdrop-filter 0.3s ease, border 0.1s ease, box-shadow .25s ease; */
+  transition: top 0.4s ease-in-out;
+}
+.nav-up {
+  top: -100px;
 }
   
 .sticky {
@@ -83,10 +88,10 @@ body, html {
 }
 
 #nav_projects:hover,#nav_home:hover,#nav_gallery:hover{
-  color:grey ;
+  color:grey !important;
 }
 
-.nav-white{
+/* .nav-white{
   color:white !important;
 }
 
@@ -100,7 +105,7 @@ body, html {
 .btn-white{
   color:white;
   border-color:white;
-}
+} */
 
 .fade-in{
   opacity: 0;

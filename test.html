@@ -5,39 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Transparent Overlay on Hover</title>
   <style>
-    .image-container {
-      position: relative;
-      display: inline-block;
-    }
+    body {
+    padding-top: 40px;
+}
 
-    .image-overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for transparency */
-      opacity: 0;
-      transition: opacity 0.3s ease;
-    }
+header {
+    background: #f5b335;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+}
 
-    .image-container:hover .image-overlay {
-      opacity: 1;
-    }
+.nav-up {
+    top: -40px;
+}
 
-    .image {
-      display: block;
-      width: 100%;
-      height: auto;
-    }
+main {
+   background:url(
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAPklEQVQYV2O8dOnSfwYg0NPTYwTRuAAj0QqxmYBNM1briFaIzRbi3UiRZ75uNgUHGbfvabgfsHqGaIXYPAMAD8wgC/DOrZ4AAAAASUVORK5CYII=
+   ) repeat;
+    height: 2000px;
+}
+
+footer { background: #ddd;}
+* { color: transparent}
   </style>
 </head>
 <body>
 
-<div class="image-container">
-  <img class="image" src="your-image.jpg" alt="Your Image">
-  <div class="image-overlay"></div>
-</div>
+  <header class="nav-down">
+    This is your menu.
+</header>
+<main>
+    This is your body.
+</main>
+<footer>
+    This is your footer.
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+<script type="text/javascript" src="test.js"></script>
 </body>
+
 </html>

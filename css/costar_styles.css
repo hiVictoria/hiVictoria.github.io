@@ -1,5 +1,7 @@
 a{
   color:white;
+  font-family: 'Geologica', sans-serif;
+  font-weight: 400;
 }
 
 a:hover{
@@ -29,15 +31,22 @@ a:hover{
   font-weight: 800;
 }
 
-#navbar {
+header{
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 9999;
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px); 
-  transition: backdrop-filter 0.25s ease, -webkit-backdrop-filter 0.3s ease, border 0.1s ease, box-shadow .25s ease;
+  background-color: rgba(255, 255, 255, 0.712);
+  transition:top 0.4s ease-in-out;
 }
+.nav-up {
+  top: -120px;
+}
+#content-padding{
+  padding-top:5em;
+} 
   
 .sticky {
   position: -webkit-sticky;
