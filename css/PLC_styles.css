@@ -45,6 +45,9 @@ header {
   color:grey !important;
 }
 
+.nav-link:hover{
+  color:grey !important;
+}
   .margin{
     margin:3em 0em 3em 0em;
   }

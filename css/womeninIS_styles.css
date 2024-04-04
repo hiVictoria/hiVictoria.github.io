@@ -91,21 +91,9 @@ header {
   color:grey !important;
 }
 
-/* .nav-white{
-  color:white !important;
+.nav-link:hover{
+  color:grey !important;
 }
-
-.hover-blue{
-  color:rgb(203, 242, 255) !important;
-}
-.hover-white{
-  background-color:white !important;
-  color:rgb(90, 173, 201) !important;
-}
-.btn-white{
-  color:white;
-  border-color:white;
-} */
 
 .fade-in{
   opacity: 0;
