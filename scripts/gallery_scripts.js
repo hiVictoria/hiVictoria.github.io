@@ -37,6 +37,7 @@ document.getElementById("nav_projects").addEventListener("mouseout", darkenText)
 document.getElementById("nav_gallery").addEventListener("mouseover", lightenText);
 document.getElementById("nav_gallery").addEventListener("mouseout", darkenText);
 
+// nav bar appears on scroll up
 var didScroll;
 var lastScrollTop = 0;
 var delta = 5;

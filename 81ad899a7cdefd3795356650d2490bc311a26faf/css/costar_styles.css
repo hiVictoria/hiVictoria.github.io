@@ -60,7 +60,7 @@ header{
   top: -120px;
 }
 #content-padding{
-  padding-top:5em;
+  padding-top:1em;
 } 
   
 .sticky {
@@ -68,6 +68,11 @@ header{
 	position: sticky;
 	top: 0;
 }
+
+#avatar{
+  height:4rem;
+  width:4rem
+} 
 
 #victoria:hover{
   color: grey;
