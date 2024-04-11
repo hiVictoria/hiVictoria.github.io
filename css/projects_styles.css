@@ -115,26 +115,26 @@ a{
   }
 
   #homes:hover{
-    border: 1px solid rgba(255, 157, 63, .5);
+    border: 1.5px solid rgba(255, 157, 63, .5);
     border-top: none; 
   }
 
   #womeninIS:hover{
-    border: 1px solid rgba(63, 194, 255, .5);
+    border: 1.5px solid rgba(63, 194, 255, .5);
     border-top: none; 
   }
   #plc:hover{
-    border: 1px solid rgba(24, 194, 75, .5);
+    border: 1.5px solid rgba(24, 194, 75, .5);
     border-top: none; 
   }
 
   #pandemicpals:hover{
-    border: 1px solid rgba(89, 24, 194, .5);
+    border: 1.5px solid rgba(89, 24, 194, .5);
     border-top: none; 
   }
 
   #creative:hover{
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1.5px solid rgba(0, 0, 0, 0.5);
     border-top: none; 
   }
 

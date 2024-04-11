@@ -56,14 +56,14 @@ $(window).on('resize', function() {
           } else {
               parent.location.hash = hash
               alert[0].style.display = 'block'
-              password[0].setAttribute('placeholder', 'Try again')
+              password[0].setAttribute('placeholder', "Contact me if you need the secret knock!")
               password[0].value = ''
           }
       }
       request.onerror = function () {
           parent.location.hash = hash
           alert[0].style.display = 'block'
-          password[0].setAttribute('placeholder', 'Try again')
+          password[0].setAttribute('placeholder', "Contact me if you need the secret knock!")
           password[0].value = ''
       }
       request.send()
