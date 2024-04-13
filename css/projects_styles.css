@@ -2,8 +2,12 @@
     font-family: 'Themadi';
     src: url('./fonts/Themadi.ttf') format('truetype'); 
   }
-
-
+*{
+  cursor: url('../favicon/pointer.png'), auto !important;
+}
+a:hover, button:hover, a, button, img{
+  cursor: url('../favicon/clicker.png'), auto !important;
+}
 a{
     /* font-size: larger; */
     font-family: 'Geologica', sans-serif;

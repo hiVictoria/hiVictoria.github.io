@@ -2,6 +2,12 @@ body{
   font-family: 'Geologica', sans-serif;
   font-weight: 200;
 }
+*{
+  cursor: url('../favicon/pointer.png'), auto !important;
+}
+a:hover, button:hover, a, button{
+  cursor: url('../favicon/clicker.png'), auto !important;
+}
 
 a{
   text-decoration-thickness:2px;
