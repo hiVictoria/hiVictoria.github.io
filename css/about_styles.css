@@ -20,19 +20,12 @@ a{
 }
 
 h1{
-  padding-bottom:1em;
+  padding-bottom:.5em;
 }
-img{
-  height: 28em;
-  margin: auto;
-  display:none;
-}
-#design_img{
-  height:auto;
-  width: 40em;
-}
-.highlight{
-  background-color: rgb(218, 246, 255);
+
+.img{
+  width:30em;
+  max-width: 100%;
 }
 
 .Geologica200{
@@ -49,7 +42,28 @@ img{
   font-family: 'Geologica', sans-serif;
   font-weight: 600;
 }
+
+#avatar{
+  display:block;
+  height: 4rem;
+}
+
+.css-blurry-gradient {
+  z-index: -5;
+  position: fixed;
+  top: 15%;
+  left: 23%;
+  transform: translate(-50%, 0%);
+  width: 35rem;
+  height: 35rem;
+    border-radius: 50% 22% 40% 80%;  
+    filter: blur(100px);
+  background: radial-gradient(circle at 50% 50%,rgb(60, 176, 230), rgba(255, 0, 0, 0));
+  opacity: 0.5;
+}
+
 .highlight{
+  background-color: rgb(218, 246, 255);
   text-decoration: none;
   padding-left:2px;
   padding-right:2px;
@@ -62,47 +76,10 @@ img{
   /* color: #0f7b7f ; */
 }
 
-#victoria{
-  font-family: 'Geologica', sans-serif;
-  font-weight: 600;
-}
-
 .highlight:hover{
   background-color: rgb(255, 221, 194);
   color: #8f3c08 ;
   /* color: #b14e11 ; */
-}
-
-#avatar{
-  display:block;
-  height: 4rem;
-}
-
-#photos{
-  height: 30em;
-}
-
-.css-blurry-gradient {
-  z-index: -5;
-  position: fixed;
-  top: 15%;
-  left: 70%;
-  transform: translate(-50%, 0%);
-  width: 35rem;
-  height: 35rem;
-    border-radius: 50% 22% 40% 80%;  
-    filter: blur(100px);
-  background: radial-gradient(circle at 50% 50%,rgb(60, 176, 230), rgba(255, 0, 0, 0));
-  opacity: 0.5;
-}
-
-.fixed-bottom {
-  position: fixed;
-  bottom: 2em;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 10px; /* Adjust padding as needed */
-  z-index: 999; /* Adjust z-index as needed */
 }
 
 #navbar-mobile{
@@ -110,13 +87,6 @@ img{
 }
 
 @media only screen and (min-width: 768px) {
-  #bottom{
-    position: fixed; /* Fixed positioning */
-    right: 0; /* Positioning from the right side */
-    bottom: 0; /* Positioning from the bottom */
-    left: 0; /* Positioning from the left side */
-    z-index: 1030; /* Z-index to ensure it stays on top of other content */
-  }
 
   header{
     margin-bottom: 3.5em;

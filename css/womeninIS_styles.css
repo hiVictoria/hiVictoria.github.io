@@ -1,7 +1,7 @@
 *{
   cursor: url('../favicon/pointer.png'), auto !important;
 }
-a:hover, button:hover, a, button{
+a:hover, button:hover, a, button, #avatar{
   cursor: url('../favicon/clicker.png'), auto !important;
 }
 

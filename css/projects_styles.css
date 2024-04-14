@@ -5,7 +5,7 @@
 *{
   cursor: url('../favicon/pointer.png'), auto !important;
 }
-a:hover, button:hover, a, button, img{
+a:hover, button:hover, a, button, img, #avatar{
   cursor: url('../favicon/clicker.png'), auto !important;
 }
 a{
@@ -86,7 +86,7 @@ a{
 
     background: rgba(255, 255, 255, 0.08);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
     border: 1px solid rgb(255, 255, 255);
@@ -95,7 +95,7 @@ a{
   }
 
   .glass:hover, .wide-glass:hover{
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
     backdrop-filter:none;
     -webkit-backdrop-filter: none;
   }
