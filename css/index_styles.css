@@ -5,7 +5,7 @@ body{
 *{
   cursor: url('../favicon/pointer.png'), auto !important;
 }
-a:hover, button:hover, a, button, #avatar{
+a:hover, button:hover, a, button{
   cursor: url('../favicon/clicker.png'), auto !important;
 }
 
@@ -75,6 +75,7 @@ img{
 
 #avatar{
   display:block;
+  visibility: hidden;
   height: 4rem;
 }
 

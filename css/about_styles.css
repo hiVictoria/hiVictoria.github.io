@@ -93,6 +93,12 @@ h1{
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .padding-top{
+    padding-top: .8em;
+  }
+}
+
 @media (max-width: 474px) {
   #navbar{
     display:none;

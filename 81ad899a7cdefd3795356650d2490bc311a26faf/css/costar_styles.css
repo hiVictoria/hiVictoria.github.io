@@ -1,8 +1,20 @@
 *{
-  cursor: url('../favicon/pointer.png'), auto !important;
+  cursor: url('../../favicon/pointer.png'), auto !important;
 }
 a:hover, button:hover, a, button, #avatar{
-  cursor: url('../favicon/clicker.png'), auto !important;
+  cursor: url('../../favicon/clicker.png'), auto !important;
+}
+
+a{
+  text-decoration:none;
+  color:black;
+  font-family: 'Geologica', sans-serif;
+}
+
+.header-link{
+  font-family: 'Geologica', sans-serif;
+  font-weight: 400;
+  color:rgb(0, 0, 0)
 }
 
 .black{
