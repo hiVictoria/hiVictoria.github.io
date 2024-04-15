@@ -15,8 +15,11 @@ $(document).on("scroll", function() {
   });
   $(window).on("load", function() {
     var tagsload = $(".tag-load");
+    var mobileload = $(".mobile-load");
+
   
     tagsload.addClass("visible");
+    mobileload.addClass("visible");
   });
 
 

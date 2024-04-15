@@ -107,6 +107,14 @@ header{
 }
 
 @media (max-width: 474px) {
+  #content-padding{
+    margin-top: 2em;
+  }
+  .mobile-load {
+    opacity: 0;
+    transform: translate(0, 10vh);
+    transition: all 1s;
+  }
   #navbar{
     display:none;
   }
