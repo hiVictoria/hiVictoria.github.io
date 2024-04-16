@@ -77,6 +77,9 @@ a{
   #black{
     background: radial-gradient(circle at 50% 50%,rgb(0, 0, 0), rgba(255, 255, 255, 0));
   }
+  #red{
+    background: radial-gradient(circle at 50% 50%,rgb(192,4,52), rgba(255, 255, 255, 0));
+  }
 
   .glass{
     max-width:36rem;
@@ -142,6 +145,11 @@ a{
     border-top: none; 
   }
 
+  #epic:hover{
+    border: 1.5px solid rgba(192,4,52, .5);
+    border-top: none; 
+  }
+
   .parent {
     display: grid;
     /* grid-template-columns: 1fr; */
@@ -188,9 +196,56 @@ img{
     z-index: -5;
 }
 
+.epic-gradient{
+  position: relative;
+    top: 6%; 
+    /* top: -15%; */
+    left: 82%;
+    transform: translate(-50%, 0%);
+    width: 500px;
+    height: 250px;
+      border-radius: 50% 40% 40% 50%;  
+      /* border-radius: 50% 40% 70% 70%;   */
+      filter: blur(75px);
+    
+    opacity: 0.7;
+    z-index: -5;
+}
+.displayMobile{
+  display:none;
+}
+#epic-title{
+  visibility: hidden;
+}
 #navbar-mobile{
   display:none;
 }
+@media only screen and (max-width: 991px) {
+  .wide-glass{
+    max-width:36rem;
+  }
+  .displayDesktop{
+    display: none;
+  }
+  .displayMobile{
+    display:inline;
+  }
+  .epic-gradient{
+    top: 5%; 
+    /* top: -15%; */
+    left: 52%;
+    transform: translate(-50%, 0%);
+    width: 400px;
+    height: 300px;
+  }
+  #epic-title{
+    visibility: visible;
+  }
+  .paddingMobile{
+    padding-top: 3em;
+  }
+}
+
  @media only screen and (max-width: 865px) { /* 847.5px */
 .breakpoint{
     padding-top: 7em;
