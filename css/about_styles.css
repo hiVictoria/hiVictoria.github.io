@@ -5,7 +5,7 @@ body{
 *{
   cursor: url('../favicon/pointer.png'), auto !important;
 }
-a:hover, button:hover, a, button, #avatar{
+a:hover, button:hover, a, button, #avatar, #click{
   cursor: url('../favicon/clicker.png'), auto !important;
 }
 
@@ -15,6 +15,29 @@ a{
   font-family: 'Geologica', sans-serif;
   font-weight: 400;
 }
+
+.underline{
+  text-decoration: none;
+  font-weight: 400;
+  color:#4dfff6;
+  position: relative; /* Ensure relative positioning */
+  display: inline-block;
+}
+
+.underline::after {
+  content: ""; /* Create the underline */
+  position: absolute; /* Position relative to the parent */
+  left: 0; /* Align with the text */
+  bottom: -2px; /* Adjust the distance from the text */
+  width: 100%; /* Span the entire width of the parent */
+  height: 2px; /* Define the thickness of the underline */
+  background-color: rgb(60, 176, 230)
+}
+
+.underline:hover::after {
+  background-color:#ea6d20
+}
+
 #nav_projects:hover,#nav_home:hover,#nav_gallery:hover{
   color:grey!important
 }
@@ -72,7 +95,7 @@ h1{
   font-family: 'Geologica', sans-serif;
   font-weight: 400;
   background-color: rgb(218, 246, 255);
-  color: #066b6e ;
+  color: #058489 ;
   /* color: #0f7b7f ; */
 }
 
@@ -82,6 +105,11 @@ h1{
   /* color: #b14e11 ; */
 }
 
+.blue{
+  background-color: rgb(60, 176, 230);
+  color:white;
+}
+
 #navbar-mobile{
   display:none;
 }
@@ -89,7 +117,7 @@ h1{
 @media only screen and (min-width: 768px) {
 
   header{
-    margin-bottom: 3.5em;
+    margin-bottom: 3em;
   }
 }
 

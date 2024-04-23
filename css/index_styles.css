@@ -15,6 +15,28 @@ a{
   font-family: 'Geologica', sans-serif;
   font-weight: 400;
 }
+
+.underline{
+  text-decoration: none;
+  font-weight: 400;
+  position: relative; /* Ensure relative positioning */
+  display: inline-block;
+}
+
+.underline::after {
+  content: ""; /* Create the underline */
+  position: absolute; /* Position relative to the parent */
+  left: 0; /* Align with the text */
+  bottom: -2px; /* Adjust the distance from the text */
+  width: 100%; /* Span the entire width of the parent */
+  height: 2px; /* Define the thickness of the underline */
+  background-color: rgb(60, 176, 230)
+}
+
+.underline:hover::after {
+  background-color:  #ea6d20
+}
+
 #nav_projects:hover,#nav_home:hover,#nav_gallery:hover{
   color:grey!important
 }
@@ -30,9 +52,6 @@ img{
 #design_img{
   height:auto;
   width: 40em;
-}
-.highlight{
-  background-color: rgb(218, 246, 255);
 }
 
 .Geologica200{
@@ -50,7 +69,10 @@ img{
   font-weight: 600;
 }
 .highlight{
+  background-color: rgb(218, 246, 255);
   text-decoration: none;
+  margin-top: 4px; /* Add padding to the top */
+  margin-bottom: 4px;
   padding-left:2px;
   padding-right:2px;
   /* text-decoration-thickness:2px;
@@ -58,7 +80,7 @@ img{
   font-family: 'Geologica', sans-serif;
   font-weight: 400;
   background-color: rgb(218, 246, 255);
-  color: #066b6e ;
+  color: #058489 ;
   /* color: #0f7b7f ; */
 }
 

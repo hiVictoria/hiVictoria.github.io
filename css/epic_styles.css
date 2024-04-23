@@ -1,0 +1,297 @@
+*{
+  cursor: url('../favicon/pointer.png'), auto !important;
+}
+a:hover, button:hover, a, button, #avatar, img{
+  cursor: url('../favicon/clicker.png'), auto !important;
+}
+.fancybox-container {
+  z-index: 9999; /* Adjust the z-index value as needed */
+}
+.f-thumbs__slide.for-image .f-thumbs__slide_img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+.quote-header{
+  text-align:right;
+  font-family: 'Geologica', sans-serif;
+}
+.quote{
+  padding-left: 3.5em;
+  padding-right: 3em;
+  font-family: 'Geologica', sans-serif;
+  font-weight: 200;
+}
+.cite{
+  color:#3CB0E6;
+  font-size: 16px;
+  line-height: 0px;
+  padding-bottom: 16px;
+}
+.vertical-line{
+position: absolute;
+  top: 40px;
+  right: 0px;
+  width: 2px; /* Adjust thickness as needed */
+  height: calc(100% - 40px);
+  background-color: black; /* Change color as needed */
+  z-index: -1; /* Ensure the line is behind other content */
+}
+.gap{
+  top: 70px;
+  height: calc(100% - 70px);
+}
+.column{
+  position: relative; 
+  margin-left: 2em;
+  margin-right:0px;
+  padding-right:0px;
+  text-align: right;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.red{
+  color:#BA0239
+}
+.intro{
+  font-family: 'Geologica', sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+}
+.black{
+  background-color: black;
+  color:white
+}
+.line{
+  /* border: 1px dashed red; */
+  border: 1.5px dashed #BA0239;
+  /* color: #BA0239;
+  text-decoration-thickness: 5px; */
+}
+
+a{
+    text-decoration:none;
+    font-family: 'Geologica', sans-serif;
+    font-weight: 400;
+  }
+  
+  body, html {
+      height: 100%;
+  }
+ p{
+  font-size:1.2em;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  backdrop-filter: blur(2px);
+  background-color: rgba(255, 255, 255, 0.712);
+  -webkit-backdrop-filter: blur(2px); 
+  transition:top 0.4s ease-in-out;
+}
+.nav-up {
+  top: -120px;
+}
+#content-padding{
+  padding-top:5em;
+} 
+
+.sticky {
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+#avatar{
+  height: 4rem;
+  width:4rem
+}  
+
+#nav_projects:hover,#nav_home:hover,#nav_gallery:hover{
+  color:grey !important;
+}
+
+.nav-link:hover{
+  color:grey !important;
+}
+  .margin{
+    margin:3em 0em 3em 0em;
+  }
+
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+/* @font-face {
+  font-display: swap; 
+  font-family: 'Geologica';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/geologica-v1-latin-regular.woff2') format('woff2'); 
+} */
+
+  .Geologica400{
+    font-family: 'Geologica', sans-serif;
+    font-weight:400
+  }
+  
+  .Geologica800{
+    font-family: 'Geologica', sans-serif;
+    font-weight:800
+  }
+  
+  .fade-in-image {
+    animation: fadeIn 4s;
+    -webkit-animation: fadeIn 4s;
+    -moz-animation: fadeIn 4s;
+    -o-animation: fadeIn 4s;
+    -ms-animation: fadeIn 4s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  .parallax {
+    background-image: url("../images/Epic/Campus.jpeg");
+    width: 100%;
+    height:100%;
+    background-color:#AEDD96;
+  
+    height: 30em;
+  
+    /* Create parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.margin{
+  padding-left:3em;
+  padding-right:3em;
+}
+
+
+#top{
+  padding-bottom:2em;
+  padding-top:2em;
+}
+
+.hidden{
+  display:none;
+}
+.quickfacts{
+  display:none;
+}
+.rowIcons{
+  display:none;
+}
+
+
+
+
+.tag {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.black {
+  background-color: black;
+  color:rgb(218, 218, 218);
+}
+.green {
+  background-color: #92c77a;
+  color:white;
+}
+
+#content-padding{
+  padding-top:6em;
+}
+
+@media only screen and (max-width: 992px) {
+  .column{
+    display: flex;
+    justify-content: center;
+    padding-left:0px;
+    margin-left:0px;
+  }
+
+  .vertical-line{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 576px) {
+  .colQuickfacts{
+    display:none;
+  }
+  .quickfacts{
+    display:block;
+  }
+  #top_heading{
+    text-align:center;
+  }
+  .parallax {
+    background-image: url("../images/iso-PLC-mobile.png");
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .fade-in, .tag{
+    opacity: 1;
+  transform: translate(0, 0);
+  transition: all 0s;
+  }
+  .parallax{
+    background-attachment: scroll;
+  }
+}
+  
+#navbar-mobile{
+  display:none;
+}
+
+@media (max-width: 474px) {
+  #navbar{
+    display:none;
+  }
+  #navbar-mobile{
+    display:block;
+  }
+  #content-padding{
+    padding-top:8em;
+  }
+}
