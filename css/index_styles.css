@@ -12,8 +12,11 @@ a:hover, button:hover, a, button{
 a{
   text-decoration-thickness:2px;
     /* font-size: larger; */
-  font-family: 'Geologica', sans-serif;
-  font-weight: 400;
+  font-family: 'Chillax', sans-serif;
+  font-weight: 500;
+}
+.btn{
+  font-weight: 500;
 }
 
 .underline{
@@ -68,6 +71,27 @@ img{
   font-family: 'Geologica', sans-serif;
   font-weight: 600;
 }
+.Chillax700{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 700;
+}
+.Chillax600{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 600;
+}
+.Chillax500{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 500;
+}
+.Chillax400{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 400;
+}
+.Chillax300{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 300;
+}
+
 .highlight{
   background-color: rgb(218, 246, 255);
   text-decoration: none;
@@ -77,15 +101,15 @@ img{
   padding-right:2px;
   /* text-decoration-thickness:2px;
   text-decoration-color:#2F9599; */
-  font-family: 'Geologica', sans-serif;
-  font-weight: 400;
+  font-family: 'Chillax', sans-serif;
+  font-weight: 500;
   background-color: rgb(218, 246, 255);
   color: #058489 ;
   /* color: #0f7b7f ; */
 }
 
 #victoria{
-  font-family: 'Geologica', sans-serif;
+  font-family: 'Chillax', sans-serif;
   font-weight: 600;
 }
 

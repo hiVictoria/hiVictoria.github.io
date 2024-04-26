@@ -12,8 +12,11 @@ a:hover, button:hover, a, button, #avatar, #click{
 a{
   text-decoration-thickness:2px;
     /* font-size: larger; */
-  font-family: 'Geologica', sans-serif;
-  font-weight: 400;
+  font-family: 'Chillax', sans-serif;
+  font-weight: 500;
+}
+.btn{
+  font-weight: 500;
 }
 
 .underline{
@@ -49,6 +52,27 @@ h1{
 .img{
   width:30em;
   max-width: 100%;
+}
+
+.Chillax700{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 700;
+}
+.Chillax600{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 600;
+}
+.Chillax500{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 500;
+}
+.Chillax400{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 400;
+}
+.Chillax300{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 300;
 }
 
 .Geologica200{
@@ -92,8 +116,8 @@ h1{
   padding-right:2px;
   /* text-decoration-thickness:2px;
   text-decoration-color:#2F9599; */
-  font-family: 'Geologica', sans-serif;
-  font-weight: 400;
+  font-family: 'Chillax', sans-serif;
+  font-weight: 600;
   background-color: rgb(218, 246, 255);
   color: #058489 ;
   /* color: #0f7b7f ; */
@@ -114,10 +138,35 @@ h1{
   display:none;
 }
 
+#banner{
+  padding-top:6em;
+  padding-bottom:6em;
+}
+
+#photo{
+  padding-top:6em;
+  padding-bottom:7em;
+}
+
+@media only screen and (max-width: 1200px) {
+  #banner{
+    /* margin-top: 1em; */
+  }
+}
+@media only screen and (max-width: 992px) {
+  .padding-top{
+    padding-top: 1.5em;
+  }
+  #photo{
+    padding-top:4em;
+    padding-bottom:5em;
+  }
+}
+
 @media only screen and (min-width: 768px) {
 
   header{
-    margin-bottom: 3em;
+    /* margin-bottom: 3em; */
   }
 }
 

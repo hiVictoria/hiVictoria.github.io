@@ -73,11 +73,34 @@ position: absolute;
 }
 
 a{
-    text-decoration:none;
-    font-family: 'Geologica', sans-serif;
-    font-weight: 400;
-  }
-  
+  /* font-size: larger; */
+  font-family: 'Chillax', sans-serif;
+  font-weight: 500;
+}
+.btn{
+  font-weight: 500;
+}
+
+.Chillax700{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 700;
+}
+.Chillax600{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 600;
+}
+.Chillax500{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 500;
+}
+.Chillax400{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 400;
+}
+.Chillax300{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 300;
+}
   body, html {
       height: 100%;
   }
@@ -118,6 +141,10 @@ header {
   color:grey !important;
 }
 
+.nav-link{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 500;
+}
 .nav-link:hover{
   color:grey !important;
 }

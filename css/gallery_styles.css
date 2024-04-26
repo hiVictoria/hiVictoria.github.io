@@ -7,8 +7,32 @@ a:hover, button:hover, a, button, #avatar{
 
 a{
   /* font-size: larger; */
-  font-family: 'Geologica', sans-serif;
+  font-family: 'Chillax', sans-serif;
+  font-weight: 500;
+}
+.btn{
+  font-weight: 500;
+}
+
+.Chillax700{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 700;
+}
+.Chillax600{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 600;
+}
+.Chillax500{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 500;
+}
+.Chillax400{
+  font-family: 'Chillax', sans-serif;
   font-weight: 400;
+}
+.Chillax300{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 300;
 }
 
 .Geologica400{
@@ -27,7 +51,8 @@ a{
   /* text-decoration-thickness:2px;
   text-decoration-color:#2F9599; */
   background-color: rgb(218, 246, 255);
-  color:  #058489 ;
+  color:  #058489;
+  font-weight: 500;
 }
 
 .highlight:hover{
@@ -37,7 +62,6 @@ a{
 
 .underline{
   text-decoration: none;
-  font-weight: 400;
   position: relative; /* Ensure relative positioning */
   display: inline-block;
 }

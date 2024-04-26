@@ -6,10 +6,33 @@ a:hover, button:hover, a, button, #avatar{
 }
 
 a{
-    text-decoration:none;
-   
-    font-family: 'Geologica', sans-serif;
+  text-decoration:none;
+  
+  font-family: 'Chillax', sans-serif;
+  font-weight: 500;
+}
+  .btn{
+    font-weight: 500;
+  }
+  .Chillax700{
+    font-family: 'Chillax', sans-serif;
+    font-weight: 700;
+  }
+  .Chillax600{
+    font-family: 'Chillax', sans-serif;
+    font-weight: 600;
+  }
+  .Chillax500{
+    font-family: 'Chillax', sans-serif;
+    font-weight: 500;
+  }
+  .Chillax400{
+    font-family: 'Chillax', sans-serif;
     font-weight: 400;
+  }
+  .Chillax300{
+    font-family: 'Chillax', sans-serif;
+    font-weight: 300;
   }
   
   body, html {

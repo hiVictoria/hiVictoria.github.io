@@ -9,11 +9,34 @@ a:hover, button:hover, a, button, img, #avatar{
   cursor: url('../favicon/clicker.png'), auto !important;
 }
 a{
-    /* font-size: larger; */
-    font-family: 'Geologica', sans-serif;
-    font-weight: 400;
-    color:rgba(0, 0, 0, 0)
+    color:rgba(0, 0, 0, 0);
+    font-family: 'Chillax', sans-serif;
+    font-weight: 500;
+  }
+.btn{
+  font-weight: 500;
 }
+.Chillax700{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 700;
+}
+.Chillax600{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 600;
+}
+.Chillax500{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 500;
+}
+.Chillax400{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 400;
+}
+.Chillax300{
+  font-family: 'Chillax', sans-serif;
+  font-weight: 300;
+}
+
 .nav-link:hover,#victoria:hover{
   color:grey !important;
 }
@@ -93,7 +116,7 @@ a{
 
     background: rgba(255, 255, 255, 0.08);
     border-radius: 16px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
     border: 2px solid rgba(255, 255, 255, 0);
@@ -101,7 +124,7 @@ a{
   }
 
   .glass:hover, .wide-glass:hover{
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
     backdrop-filter:none;
     -webkit-backdrop-filter: none;
   }
@@ -162,7 +185,7 @@ img{
     display: inline-block;
     background: rgba(255, 255, 255, 0.08);
     border-radius: 16px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
     border: 2px solid rgba(255, 255, 255,0);
