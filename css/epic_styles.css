@@ -53,16 +53,17 @@ position: absolute;
   /* justify-content: center; */
 }
 
-.red{
-  color:#BA0239
+.blue{
+  color:#3CB0E6
 }
 .intro{
   font-family: 'Geologica', sans-serif;
   font-weight: 600;
   font-size: 2em;
+  text-align: center;
 }
 .black{
-  background-color: black;
+  background-color: rgb(15, 14, 14);
   color:white
 }
 .line{
@@ -291,9 +292,9 @@ header {
   #top_heading{
     text-align:center;
   }
-  .parallax {
+  /* .parallax {
     background-image: url("../images/iso-PLC-mobile.png");
-  }
+  } */
 }
 
 @media only screen and (max-width: 768px) {
