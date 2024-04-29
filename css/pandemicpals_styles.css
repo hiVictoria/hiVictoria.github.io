@@ -194,6 +194,11 @@ display:none;
     padding-top:2em;
 }
 
+#next, #previous{
+  display: inline;
+  font-size: 16px;
+}
+
 
 @media only screen and (max-width: 576px) {
     .colQuickfacts{

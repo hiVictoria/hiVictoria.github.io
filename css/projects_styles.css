@@ -252,6 +252,10 @@ img{
       border-radius: 50% 40% 40% 50%;  
       /* border-radius: 50% 40% 70% 70%;   */
   }
+
+  .epic-gradient{
+    opacity: .7;
+  }
   
   #epic-title{
     padding-top: 1.5em;
@@ -276,15 +280,15 @@ img{
   }
 
   .gradient{
-    top: 25%; 
+    top: 28%; 
     left: 46%;
     transform: translate(-50%, 0%);
-    width: 200px;
-    height: 150px;
+    width: 150px;
+    height: 125x;
   }
 
   .epic-gradient, .wide-gradient{
-    top: 25%; 
+    top: 23%; 
     /* top: -15%; */
     left: 46%;
     transform: translate(-50%, 0%);

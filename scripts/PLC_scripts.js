@@ -57,4 +57,37 @@ function hasScrolled() {
     
     lastScrollTop = st;
 }
-  
+
+// Next & Prev Project text change for mobile
+window.addEventListener('resize', function() {
+  var element = document.getElementById('next');
+  if (window.innerWidth <= 474) {
+    element.textContent = "Next";
+  } else {
+    element.textContent = "Next Project";
+  }
+});
+
+// Initial text content setup based on window width
+if (window.innerWidth <= 474) {
+  document.getElementById('next').textContent = "Next";
+} else {
+  document.getElementById('next').textContent = "Next Project";
+}
+
+
+window.addEventListener('resize', function() {
+  var element = document.getElementById('previous');
+  if (window.innerWidth <= 474) {
+    element.textContent = "Previous";
+  } else {
+    element.textContent = "Previous Project";
+  }
+});
+
+// Initial text content setup based on window width
+if (window.innerWidth <= 474) {
+  document.getElementById('previous').textContent = "Previous";
+} else {
+  document.getElementById('previous').textContent = "Previous Project";
+}
