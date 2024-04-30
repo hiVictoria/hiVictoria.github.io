@@ -1,8 +1,8 @@
 *{
-  cursor: url('../../favicon/pointer.png'), auto !important;
+  cursor: url('../../favicon/pointer.webp'), auto !important;
 }
 a:hover, button:hover, a, button, #avatar, #contact, #contact:hover{
-  cursor: url('../../favicon/clicker.png'), auto !important;
+  cursor: url('../../favicon/clicker.webp'), auto !important;
 }
 
 a{

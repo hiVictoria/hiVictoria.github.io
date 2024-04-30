@@ -1,12 +1,9 @@
-@font-face {
-    font-family: 'Themadi';
-    src: url('./fonts/Themadi.ttf') format('truetype'); 
-  }
+
 *{
-  cursor: url('../favicon/pointer.png'), auto !important;
+  cursor: url('../favicon/pointer.webp'), auto !important;
 }
 a:hover, button:hover, a, button, img, #avatar{
-  cursor: url('../favicon/clicker.png'), auto !important;
+  cursor: url('../favicon/clicker.webp'), auto !important;
 }
 a{
     color:rgba(0, 0, 0, 0);
@@ -48,27 +45,7 @@ a{
     height: 4rem;
     width:4rem;
     margin:auto !important
-  }  
-
-/* .card-container:hover {
-    background-color: rgba(0, 0, 0, 0.5); 
-    /* opacity: ; 
-    transition: opacity 0.3s ease;
-    border-radius: 18px;
-    border: 1px solid rgb(139, 149, 172);
-    .card-img-overlay{
-        background-color: rgba(0, 0, 0, 0.5); 
-        border-radius: 18px; 
-    }
-} */
-
-/* #homes:hover{
-    background-image: radial-gradient(circle, #ff6600,#ffcc00, );
-    
-}
-#womeninIS:hover{
-    background-image: radial-gradient(circle, #003cff,#00e1ff);
-} */
+  } 
 
   .gradient{
     position: relative;
@@ -129,7 +106,6 @@ a{
     -webkit-backdrop-filter: none;
   }
 
-  
 .titles{
     display: grid;
     align-items: center; 
