@@ -2,7 +2,7 @@
 *{
   cursor: url('../favicon/pointer.webp'), auto !important;
 }
-a:hover, button:hover, a, button, img, #avatar{
+a, a:hover, button:hover, a, button, img, #avatar, .glass, .wide-glass, .projectTitle, .titles{
   cursor: url('../favicon/clicker.webp'), auto !important;
 }
 a{
@@ -107,6 +107,7 @@ a{
   }
 
 .titles{
+    color: black;
     display: grid;
     align-items: center; 
     font-family: 'Chillax', sans-serif;
