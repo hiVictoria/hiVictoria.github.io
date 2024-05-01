@@ -209,7 +209,7 @@ img{
 #navbar-mobile{
   display:none;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
   .wide-glass{
     max-width:36rem;
   }
