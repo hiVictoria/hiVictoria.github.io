@@ -12,7 +12,7 @@ a:hover, button:hover, a, button{
 a{
   text-decoration-thickness:2px;
     /* font-size: larger; */
-  font-family: 'Chillax', sans-serif;
+  font-family: 'Chillax', 'Geologica', sans-serif;
   font-weight: 500;
 }
 .btn{
@@ -72,23 +72,23 @@ img{
   font-weight: 600;
 }
 .Chillax700{
-  font-family: 'Chillax', sans-serif;
+  font-family: 'Chillax', 'Geologica', sans-serif;
   font-weight: 700;
 }
 .Chillax600{
-  font-family: 'Chillax', sans-serif;
+  font-family: 'Chillax','Geologica', sans-serif;
   font-weight: 600;
 }
 .Chillax500{
-  font-family: 'Chillax', sans-serif;
+  font-family: 'Chillax', 'Geologica', sans-serif;
   font-weight: 500;
 }
 .Chillax400{
-  font-family: 'Chillax', sans-serif;
+  font-family: 'Chillax', 'Geologica', sans-serif;
   font-weight: 400;
 }
 .Chillax300{
-  font-family: 'Chillax', sans-serif;
+  font-family: 'Chillax', 'Geologica', sans-serif;
   font-weight: 300;
 }
 
