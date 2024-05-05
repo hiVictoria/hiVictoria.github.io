@@ -5,7 +5,7 @@ body{
 *{
   cursor: url('../favicon/pointer.webp'), auto !important;
 }
-a:hover, button:hover, a, button{
+a:hover, button:hover, a, button, .highlight{
   cursor: url('../favicon/clicker.webp'), auto !important;
 }
 
@@ -13,7 +13,7 @@ a{
   text-decoration-thickness:2px;
     /* font-size: larger; */
   font-family: 'Chillax', 'Geologica', sans-serif;
-  font-weight: 500;
+  font-weight: 500 !important;
 }
 .btn{
   font-weight: 500;
@@ -59,7 +59,7 @@ img{
 
 .Geologica200{
   font-family: 'Geologica', sans-serif;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 .Geologica400{
@@ -110,7 +110,7 @@ img{
 
 #victoria{
   font-family: 'Chillax', sans-serif;
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 
 .highlight:hover{

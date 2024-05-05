@@ -1,16 +1,16 @@
 
-*{
-  cursor: url('../favicon/pointer.webp'), auto !important;
+.page-projects *{
+  cursor: url('../favicon/pointer.webp'), auto;
 }
-a, a:hover, button:hover, a, button, img, #avatar, .glass, .wide-glass, .projectTitle, .titles{
+.page-projects a, a:hover, button:hover, a, button, img, #avatar, .glass, .wide-glass, .projectTitle, .titles{
   cursor: url('../favicon/clicker.webp'), auto !important;
 }
-a{
+.page-projects a{
     color:rgba(0, 0, 0, 0);
     font-family: 'Chillax', 'Geologica', sans-serif;
     font-weight: 500;
   }
-.btn{
+.page-projects .btn{
   font-weight: 500;
 }
 .Chillax700{
@@ -34,20 +34,20 @@ a{
   font-weight: 300;
 }
 
-.nav-link:hover,#victoria:hover{
+.page-projects .nav-link:hover,#victoria:hover{
   color:grey !important;
 }
 
- #navbar{
+.page-projects #navbar{
     background-color: rgba(255, 255, 255, 0.3);
   }
-  #avatar{
+.page-projects  #avatar{
     height: 4rem;
     width:4rem;
     margin:auto !important
   } 
 
-  .gradient{
+.page-projects .gradient{
     position: relative;
     top: 30%; 
     /* top: -15%; */
@@ -62,29 +62,29 @@ a{
     opacity: 1;
     z-index: -5;
   }
-  #orange{
+.page-projects #orange{
     background: radial-gradient(circle at 50% 50%,rgba(255, 157, 63, 1), rgba(255, 255, 255, 0));
   }
-  #blue{
+.page-projects #blue{
     background: radial-gradient(circle at 50% 50%,rgb(63, 194, 255), rgba(255, 255, 255, 0));
   }
-  #green{
+.page-projects #green{
     background: radial-gradient(circle at 50% 50%,rgba(24, 194, 75), rgba(255, 255, 255, 0));
   }
-  #purple{
+.page-projects #purple{
     background: radial-gradient(circle at 50% 50%,rgb(131, 119, 202), rgba(255, 255, 255, 0));
   }
-  #black{
+.page-projects #black{
     background: radial-gradient(circle at 50% 50%,rgb(110,168,173), rgba(144,177,201, 0));
     top: 15%; 
     height: 300px;
     
   }
-  #red{
+.page-projects #red{
     background: radial-gradient(circle at 50% 50%,rgb(192,4,52), rgba(255, 255, 255, 0));
   }
 
-  .glass{
+.page-projects .glass{
     padding-top: 2em;
     max-width:36rem;
     width: 100%;
@@ -100,13 +100,13 @@ a{
     transition: backdrop-filter 0.25s ease, -webkit-backdrop-filter 0.3s ease, border 0.1s ease, box-shadow .25s ease;
   }
 
-  .glass:hover, .wide-glass:hover{
+.page-projects .glass:hover, .wide-glass:hover{
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
     backdrop-filter:none;
     -webkit-backdrop-filter: none;
   }
 
-.titles{
+.page-projects .titles{
     color: black;
     display: grid;
     align-items: center; 
@@ -118,44 +118,63 @@ a{
     white-space: nowrap;
   }
 
-  #homes:hover{
-    border: solid rgba(255, 157, 63, .5);
+.page-projects #homes {
+    border: 2px solid rgba(255, 157, 63, 0);
+  }
+.page-projects #homes:hover {
+    border: 2px solid rgba(255, 157, 63, .55);
+  }
+  
+.page-projects #womeninIS {
+    border: 2px solid rgba(255, 157, 63, 0);
+  }
+.page-projects #womeninIS:hover {
+    border: 2px solid rgba(63, 194, 255, .5);
+  }
+  
+.page-projects #plc {
+    border: 2px solid rgba(255, 157, 63, 0);
+  }
+.page-projects #plc:hover {
+    border: 2px solid rgba(24, 194, 75, .5);
+  }
+  
+.page-projects #pandemicpals {
+    border: 2px solid rgba(255, 157, 63, 0);
+  }
+.page-projects #pandemicpals:hover {
+    border: 2px solid rgba(89, 24, 194, .5);
+  }
+  
+.page-projects #creative {
+    border: 2px solid rgba(110,168,173, 0);
+  }
+.page-projects #creative:hover {
+    border: 2px solid rgba(110,168,173, 0.7);
+  }
+  
+.page-projects #epic {
+    border: 2px solid rgba(255, 157, 63, 0);
+  }
+.page-projects #epic:hover {
+    border: 2px solid rgba(192, 4, 52, .4);
   }
 
-  #womeninIS:hover{
-    border: solid rgba(60, 172, 224, 0.5);
-  }
-  #plc:hover{
-    border: solid rgba(20, 163, 63, 0.4);
-  }
-
-  #pandemicpals:hover{
-    border: solid rgba(122, 107, 204, 0.5);
-  }
-
-  #creative:hover{
-    border:solid rgba(110,168,173, 0.7);
-  }
-
-  #epic:hover{
-    border:  solid rgba(192,4,52, .4);
-  }
-
-  .parent {
+.page-projects .parent {
     display: grid;
     /* grid-template-columns: 1fr; */
   }
   
-  .parent div {
+.page-projects .parent div {
    grid-row-start: 1;
    grid-column-start: 1;
   }
 
-img{
+.page-projects img{
     width:100%;
     height: auto;
 }
-.wide-glass{
+.page-projects .wide-glass{
   max-width: 74rem;
   width: 100%;
     position: relative;
@@ -169,7 +188,7 @@ img{
     transition: backdrop-filter 0.25s ease, -webkit-backdrop-filter 0.3s ease, border 0.1s ease, box-shadow .25s ease;
 }
 
-.wide-gradient{
+.page-projects .wide-gradient{
   position: relative;
     top: 0%; 
     /* top: -15%; */
@@ -185,7 +204,7 @@ img{
     z-index: -5;
 }
 
-.epic-gradient{
+.page-projects .epic-gradient{
   position: relative;
     top: 23%; 
     /* top: -15%; */
@@ -200,26 +219,26 @@ img{
     opacity: 0.8;
     z-index: -5;
 }
-.displayMobile{
+.page-projects .displayMobile{
   display:none;
 }
-#epic-title{
+.page-projects #epic-title{
   display: none;
 }
-#navbar-mobile{
+.page-projects #navbar-mobile{
   display:none;
 }
 @media only screen and (max-width: 992px) {
-  .wide-glass{
+  .page-projects .wide-glass{
     max-width:36rem;
   }
-  .displayDesktop{
+  .page-projects .displayDesktop{
     display: none;
   }
-  .displayMobile{
+  .page-projects .displayMobile{
     display:inline;
   }
-  .epic-gradient, .wide-gradient{
+  .page-projects .epic-gradient, .wide-gradient{
     top: 25%; 
     /* top: -15%; */
     left: 46%;
@@ -230,11 +249,11 @@ img{
       /* border-radius: 50% 40% 70% 70%;   */
   }
 
-  .epic-gradient{
+  .page-projects .epic-gradient{
     opacity: .7;
   }
   
-  #epic-title{
+  .page-projects #epic-title{
     padding-top: 1.5em;
 
     display: flex;
@@ -243,20 +262,20 @@ img{
 }
 
  @media only screen and (max-width: 865px) { /* 847.5px */
-.breakpoint{
+  .page-projects .breakpoint{
     padding-top: 3em;
 }
 }
 
 @media (max-width: 474px) {
-  #navbar{
+  .page-projects #navbar{
     display:none;
   }
-  #navbar-mobile{
+  .page-projects #navbar-mobile{
     display:block;
   }
 
-  .gradient{
+  .page-projects .gradient{
     top: 28%; 
     left: 46%;
     transform: translate(-50%, 0%);
@@ -264,7 +283,7 @@ img{
     height: 125x;
   }
 
-  .epic-gradient, .wide-gradient{
+  .page-projects .epic-gradient, .wide-gradient{
     top: 23%; 
     /* top: -15%; */
     left: 46%;

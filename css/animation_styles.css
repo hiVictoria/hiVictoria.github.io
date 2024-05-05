@@ -1,19 +1,19 @@
-.content {
+.page-costar .content {
   height: 160px;
   overflow: hidden;
 }
-.content__container {
+.page-costar .content__container {
   font-weight: 600;
   overflow: hidden;
   height: 47px;
   padding: 0 40px;
 }
-.content__container__text {
+.page-costar .content__container__text {
   display: inline;
   float: left;
   margin: 0;
 }
-.content__container__list {
+.page-costar .content__container__list {
   margin-top: 6px;
   padding-left: 870px;
   text-align: left;
@@ -25,7 +25,7 @@
   animation-duration: 10s;
   animation-iteration-count: infinite;
 }
-.content__container__list__item {
+.page-costar .content__container__list__item {
   line-height: 40px;
   margin: 0;
 }
@@ -146,15 +146,15 @@
 /*# sourceMappingURL=animation_styles.css.map */
 
 @media only screen and (max-width: 1200px) {
- .content__container__list {
+  .page-costar .content__container__list {
     margin-top: 1px;
     padding-left: 697px;
     overflow: visible;
   }
-  .content{
+  .page-costar .content{
     overflow: visible;
   }
-  .content__container {
+  .page-costar .content__container {
     font-size:80%;
   }
 }
@@ -169,29 +169,29 @@
   } */
 
 
-  .content__container {
+  .page-costar .content__container {
     /* height: 100px; */
     display:none;
   }
 
 
 
-  .content_ms {
+  .page-costar .content_ms {
     height: 160px;
     overflow: hidden;
   }
-  .content__container_ms {
+  .page-costar .content__container_ms {
     font-weight: 600;
     overflow: hidden;
     height: 47px;
     padding: 0 40px;
   }
-  .content__container__text_ms {
+  .page-costar .content__container__text_ms {
     display: inline;
     float: left;
     margin: 0;
   }
-  .content__container__list_ms {
+  .page-costar .content__container__list_ms {
     margin-top: 6px;
     padding-left: 870px;
     text-align: left;
@@ -203,20 +203,20 @@
     animation-duration: 10s;
     animation-iteration-count: infinite;
   }
-  .content__container__list__item_ms {
+  .page-costar .content__container__list__item_ms {
     line-height: 40px;
     margin: 0;
   }
 
-  .content__container__list_ms {
+  .page-costar .content__container__list_ms {
     margin-top: -10px;
     padding-left: 255px;
     overflow: visible;
   }
-  .content_ms{
+  .page-costar .content_ms{
     overflow: visible;
   }
-  .content__container_ms {
+  .page-costar .content__container_ms {
     font-size:80%;
   }
 

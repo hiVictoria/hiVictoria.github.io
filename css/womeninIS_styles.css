@@ -1,16 +1,16 @@
-*{
+.page-women *{
   cursor: url('../favicon/pointer.webp'), auto !important;
 }
-a:hover, button:hover, a, button, #avatar{
+.page-women a:hover, button:hover, a, button, #avatar{
   cursor: url('../favicon/clicker.webp'), auto !important;
 }
 
-a{
+.page-women a{
   text-decoration:none;
   font-family: 'Chillax', 'Geologica',sans-serif;
   font-weight: 500;
 }
-  .btn{
+.page-women .btn{
     font-weight: 500;
   }
   .Chillax700{
@@ -34,26 +34,26 @@ a{
     font-weight: 300;
   }
 
-.header-link{
+  .page-women .header-link{
   font-family: 'Geologica', sans-serif;
   font-weight: 400;
   color:rgb(0, 0, 0)
 }
 
-body, html {
+.page-women body, html {
     height: 100%;
 }
 
-.center{
+.page-women .center{
   display: flex;
     flex-direction: row;
     justify-content: center;
     height: 100%;  
 }
-.challenges{
+.page-women .challenges{
   padding:1em;
 }
-.demos{
+.page-women .demos{
   text-align:center;
 }
 .Geologica400{
@@ -66,7 +66,7 @@ body, html {
   font-weight:800
 }
 
-header {
+.page-women header {
   position: fixed;
   top: 0;
   width: 100%;
@@ -77,64 +77,64 @@ header {
   /* transition: backdrop-filter 0.25s ease, -webkit-backdrop-filter 0.3s ease, border 0.1s ease, box-shadow .25s ease; */
   transition: top 0.4s ease-in-out;
 }
-.nav-up {
+.page-women .nav-up {
   top: -100px;
 }
   
-.sticky {
+.page-women .sticky {
   position: -webkit-sticky;
 	position: sticky;
 	top: 0;
   background: rgba(255, 255, 255, 0.9);
 }
 
-#avatar{
+.page-women #avatar{
   height:4rem;
   width:4rem
 }  
 
-.scroll-color{
+.page-women .scroll-color{
   /* background: rgba(235, 114, 0, 0.8); */
   background: rgba(38, 42, 48, 0.9);
 }
 
-.scroll-color-blue{
+.page-women .scroll-color-blue{
   /* background: rgba(90, 168, 197, 0.9); */
   background: rgba(90, 173, 201, 0.9);
 
   /* background: rgba(90, 151, 201, 0.9); */
 }
 
-.scroll-link{
+.page-women .scroll-link{
   color:white
 }
-.btn{
+.page-women .btn{
   border-color: black;
 }
-.btn:hover{
+.page-women .btn:hover{
   color:white;
   background-color: black;
   border-color:white;
 }
 
-#nav_projects:hover,#nav_home:hover,#nav_gallery:hover{
+.page-women #nav_projects:hover,#nav_home:hover,#nav_gallery:hover{
   color:grey !important;
 }
 
-.nav-link:hover{
+.page-women .nav-link:hover{
   color:grey !important;
 }
 
-.fade-in{
+.page-women .fade-in{
   opacity: 0;
   transform: translate(0, 10vh);
   transition: all 1s;
 }
-.fade-in.visible {
+.page-women .fade-in.visible {
   opacity: 1;
   transform: translate(0, 0);
 }
-.fade-in-image {
+.page-women .fade-in-image {
   animation: fadeIn 4s;
   -webkit-animation: fadeIn 4s;
   -moz-animation: fadeIn 4s;
@@ -165,11 +165,11 @@ header {
   0% {opacity:0;}
   100% {opacity:1;}
 }
-.margin{
+.page-women .margin{
   padding-left:3em;
   padding-right:3em;
 }
-.parallax {
+.page-women .parallax {
   background-image: url("../images/iso.webp");
   width: 100%;
   height:100%;
@@ -183,50 +183,50 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#bck-color{
+.page-women #bck-color{
   background-color:#296A86;
 }
-#challenge{
+.page-women #challenge{
   margin: 1.5em 3em 3em 3em;
 }
 
-#top{
+.page-women #top{
   padding-bottom:2em;
   padding-top:2em;
 }
 
 
-section {
+.page-women section {
   height: 50vh;
 }
 
-.hidden{
+.page-women .hidden{
   display:none;
 }
-.quickfacts{
+.page-women .quickfacts{
   display:none;
 }
-.rowIcons{
+.page-women .rowIcons{
   display:none;
 }
-.tag {
+.page-women .tag {
   opacity: 0;
   transform: translate(0, 10vh);
   transition: all 1s;
 }
 
-.tag.visible {
+.page-women .tag.visible {
   opacity: 1;
   transform: translate(0, 0);
 }
 
-.flip-card {
+.page-women .flip-card {
   background-color: transparent; 
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
 /* This container is needed to position the front and back side */
-.flip-card-inner {
+.page-women .flip-card-inner {
   position: relative;
   width: 100%;
   height: 100%;
@@ -237,12 +237,12 @@ section {
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
+.page-women .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
 /* Position the front and back side */
-.flip-card-front, .flip-card-back {
+.page-women .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -251,82 +251,82 @@ section {
 }
 
 /* Style the back side */
-.flip-card-back {
+.page-women .flip-card-back {
   transform: rotateY(180deg);
 }
-.front{
+.page-women .front{
   background-color:rgb(253, 237, 237)
 }
-.front2{
+.page-women .front2{
   background-color:rgb(255, 246, 246)
 }
-.back{
+.page-women .back{
   background-color:rgb(239, 255, 241);
 }
-.card-inner-row{
+.page-women .card-inner-row{
   margin:0em 2em 1em 6em;
 }
-.card-text{
+.page-women .card-text{
   margin-top:1em;
   padding-left:.75em;
   padding-right:.75em;
 }
 
 
-.tag {
+.page-women .tag {
   opacity: 0;
   transform: translate(0, 10vh);
   transition: all 1s;
 }
 
-.tag.visible {
+.page-women .tag.visible {
   opacity: 1;
   transform: translate(0, 0);
 }
 
-.black {
+.page-women .black {
   background-color: rgba(18,27,44,255);
   color:rgb(218, 218, 218);
 }
-.blue {
+.page-women .blue {
   background-color: #60C2E4;
   color:white;
 }
 
-#next, #previous{
+.page-women #next, #previous{
   display: inline;
   font-size: 16px;
 }
 
 @media only screen and (max-width: 576px) {
-  .colQuickfacts{
+  .page-women .colQuickfacts{
     display:none;
   }
 
-  .quickfacts{
+  .page-women .quickfacts{
     display:block;
   }
-  #top_heading{
+  .page-women #top_heading{
     text-align:center;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .challenges{
+  .page-women .challenges{
     text-align:center;
   }
-  .rowIcons{
+  .page-women .rowIcons{
     display:block;
   }
-  .colIcons{
+  .page-women .colIcons{
     display:none;
   }
-  .fade-in, .fade-in.visible, .tag{
+  .page-women .fade-in, .fade-in.visible, .tag{
     opacity: 1;
   transform: translate(0, 0);
   transition: all 0s;
   }
-  .parallax{
+  .page-women .parallax{
     background-attachment: scroll;
   }
   
@@ -334,63 +334,63 @@ section {
 
 
 @media only screen and (max-width: 992px) {
-  .card-row{
+  .page-women .card-row{
     justify-content:center;
   }
-  .card-inner-row{
+  .page-women .card-inner-row{
     margin:0em 0em 3em 0em;
   }
-  .challengeRow{
+  .page-women .challengeRow{
     padding-left:2em;
   }
-  .demos{
+  .page-women .demos{
     text-align:left;
     margin-top:2em;
   }
-  .hidden{
+  .page-women .hidden{
     display:block;
     padding-right:1em;
   }
-  .fade-in{
+  .page-women .fade-in{
     opacity: 0;
     transform: translate(0, 10vh);
     transition: all 1s;
   }
-  .fade-in.visible {
+  .page-women .fade-in.visible {
     opacity: 1;
     transform: translate(0, 0);
   }
-  .notHidden{
+  .page-women .notHidden{
     display:none;
   }
-  .svg_challenge{
+  .page-women .svg_challenge{
     width:120%;
     height:120%;
     
   }
-  #goal{
+  .page-women #goal{
     margin-top:1.5em;
   }
-  #mobile{
+  .page-women #mobile{
     margin-top:3em;
   }
 }
 
-#navbar-mobile{
+.page-women #navbar-mobile{
   display:none;
 }
-#content-padding{
+.page-women #content-padding{
   padding-top:6em;
 }  
 
 @media (max-width: 474px) {
-  #navbar{
+  .page-women #navbar{
     display:none;
   }
-  #navbar-mobile{
+  .page-women #navbar-mobile{
     display:block;
   }
-  #content-padding{
+  .page-women #content-padding{
     padding-top:8em;
   }  
 }

@@ -1,39 +1,39 @@
-*{
+.page-costar-pwd *{
   cursor: url('../../favicon/pointer.webp'), auto !important;
 }
-a:hover, button:hover, a, button, #avatar, #contact, #contact:hover{
+.page-costar-pwd a:hover, button:hover, a, button, #avatar, #contact, #contact:hover{
   cursor: url('../../favicon/clicker.webp'), auto !important;
 }
 
-a{
+.page-costar-pwd a{
   text-decoration:none;
   color:black;
   font-family: 'Geologica', sans-serif;
 }
 
-.header-link{
+.page-costar-pwd .header-link{
   font-family: 'Geologica', sans-serif;
   font-weight: 400;
   color:rgb(0, 0, 0)
 }
 
-.black{
+.page-costar-pwd .black{
   background-color: black;
   color:white;
 }
-.blue{
+.page-costar-pwd .blue{
   background-color: #00488A;
   color:white;
 }
-.card{
+.page-costar-pwd .card{
   border-color:#EB7100; 
   background-color:#FFFCF7
  }
- .grey{
+ .page-costar-pwd .grey{
   background-color: #fbf3ee;
  }
  
-.orange{
+ .page-costar-pwd .orange{
   background-color: #EB7100;
   color:white;
 }
@@ -47,24 +47,24 @@ a{
   font-weight: 800;
 }
 
-a{
+.page-costar-pwd a{
   color:white;
 }
 
-a:hover{
+.page-costar-pwd a:hover{
   color:black;
 }
 
-hr{
+.page-costar-pwd hr{
   color:white;
   width:70%;
   margin:auto;
 }
 
-body{
+.page-costar-pwd body{
   padding-top: 6rem;
 }
-header{
+.page-costar-pwd header{
   position: fixed;
   top: 0;
   width: 100%;
@@ -75,54 +75,54 @@ header{
   background-color: rgba(255, 255, 255, 0.712);
   transition:top 0.4s ease-in-out;
 }
-.nav-up {
+.page-costar-pwd .nav-up {
   top: -120px;
 }
-#content-padding{
+.page-costar-pwd #content-padding{
   padding-top:1em;
 } 
   
-.sticky {
+.page-costar-pwd .sticky {
   position: -webkit-sticky;
 	position: sticky;
 	top: 0;
 }
 
-#avatar{
+.page-costar-pwd #avatar{
   height:4rem;
   width:4rem
 } 
 
-#victoria:hover{
+.page-costar-pwd #victoria:hover{
   color: grey;
 }
-#nav_projects:hover,#nav_home:hover,#nav_gallery:hover{
+.page-costar-pwd #nav_projects:hover,#nav_home:hover,#nav_gallery:hover{
   color:grey !important;
 }
-.nav-link:hover{
+.page-costar-pwd .nav-link:hover{
   color:grey !important;
 }
 
-.header-link{
+.page-costar-pwd .header-link{
   font-family: 'Geologica', sans-serif;
   font-weight: 400;
   color:rgba(0, 0, 0, 0)
 }
 
-.contact-links{
+.page-costar-pwd .contact-links{
   color:black;
   text-decoration:none;
   /*font-weight:bold; */
 }
 
-.contact-links:hover{
+.page-costar-pwd .contact-links:hover{
   color:black;
   text-decoration:underline;
   font-weight:bold; 
 }
 
 
-.icons{
+.page-costar-pwd .icons{
   height: 1.5em;
   margin-left:1em;
   width: 1.5em;
@@ -132,31 +132,31 @@ header{
   object-position: 0 100%;
 }
 
-.center-elements{
+.page-costar-pwd .center-elements{
   text-align: center;
 }
 
-.tag {
+.page-costar-pwd .tag {
   opacity: 0;
   transform: translate(0, 10vh);
   transition: all 1s;
 }
 
-.tag.visible {
+.page-costar-pwd .tag.visible {
   opacity: 1;
   transform: translate(0, 0);
 }
 
-.fade-in{
+.page-costar-pwd .fade-in{
   opacity: 0;
   transform: translate(0, 10vh);
   transition: all 1s;
 }
-.fade-in.visible {
+.page-costar-pwd .fade-in.visible {
   opacity: 1;
   transform: translate(0, 0);
 }
-.fade-in-image {
+.page-costar-pwd .fade-in-image {
   animation: fadeIn 4s;
   -webkit-animation: fadeIn 4s;
   -moz-animation: fadeIn 4s;
@@ -187,11 +187,11 @@ header{
   0% {opacity:0;}
   100% {opacity:1;}
 }
-.margin{
+.page-costar-pwd .margin{
   padding-left:3em;
   padding-right:3em;
 }
-.parallax {
+.page-costar-pwd .parallax {
   background-image: url("../images/costar-parallax.png");
   width: 100%;
   height:100%;
@@ -205,111 +205,111 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
 }
-#bck-color{
+.page-costar-pwd #bck-color{
   background-color:black;
   height:25em;
 }
-#challenge{
+.page-costar-pwd #challenge{
   margin: 1.5em 3em 3em 3em;
 }
 
-#top{
+.page-costar-pwd #top{
   padding-bottom:1.5em;
   padding-top:1em;
 }
 
 
-section {
+.page-costar-pwd section {
   height: 50vh;
 }
 
-.hidden{
+.page-costar-pwd .hidden{
   display:none;
 }
-.quickfacts{
+.page-costar-pwd .quickfacts{
   display:none;
 }
-.rowIcons{
+.page-costar-pwd .rowIcons{
   display:none;
 }
-.front{
+.page-costar-pwd .front{
   background-color:rgb(253, 237, 237)
 }
-.front2{
+.page-costar-pwd .front2{
   background-color:rgb(255, 246, 246)
 }
-.back{
+.page-costar-pwd .back{
   background-color:rgb(239, 255, 241);
 }
-.card-inner-row{
+.page-costar-pwd .card-inner-row{
   margin:0em 2em 1em 6em;
 }
-.card-text{
+.page-costar-pwd .card-text{
   margin-top:1em;
   padding-left:.75em;
   padding-right:.75em;
 }
 
 
-.tag {
+.page-costar-pwd .tag {
   opacity: 0;
   transform: translate(0, 10vh);
   transition: all 1s;
 }
 
-.tag.visible {
+.page-costar-pwd .tag.visible {
   opacity: 1;
   transform: translate(0, 0);
 }
 
-.quotes{
+.page-costar-pwd .quotes{
   font-size:1.5em;
 }
 
-#bonus{
+.page-costar-pwd #bonus{
   border-color:#00488A; 
   background-color:white;
 
 }
 
-#hidden{
+.page-costar-pwd #hidden{
   display: none;
 }
 
-#idea{
+.page-costar-pwd #idea{
   font-size:1.7em;
   margin-bottom:.5em;
 }
 
 @media only screen and (max-width: 576px) {
-  .colQuickfacts{
+  .page-costar-pwd .colQuickfacts{
     display:none;
   }
 
-  .quickfacts{
+  .page-costar-pwd .quickfacts{
     display:block;
   }
-  #top_heading{
+  .page-costar-pwd #top_heading{
     text-align:center;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .challenges{
+  .page-costar-pwd .challenges{
     text-align:center;
   }
-  .rowIcons{
+  .page-costar-pwd .rowIcons{
     display:block;
   }
-  .colIcons{
+  .page-costar-pwd .colIcons{
     display:none;
   }
-  .fade-in, .fade-in.visible, .tag{
+  .page-costar-pwd .fade-in, .fade-in.visible, .tag{
     opacity: 1;
   transform: translate(0, 0);
   transition: all 0s;
   }
-  .parallax{
+  .page-costar-pwd .parallax{
     background-attachment: scroll;
   }
   
@@ -317,59 +317,59 @@ section {
 
 
 @media only screen and (max-width: 992px) {
-  .card-row{
+  .page-costar-pwd .card-row{
     justify-content:center;
   }
-  .card-inner-row{
+  .page-costar-pwd .card-inner-row{
     margin:0em 0em 3em 0em;
   }
-  .challengeRow{
+  .page-costar-pwd .challengeRow{
     padding-left:2em;
   }
-  .demos{
+  .page-costar-pwd .demos{
     text-align:left;
     margin-top:2em;
   }
-  .hidden{
+  .page-costar-pwd .hidden{
     display:block;
     padding-right:1em;
   }
-  .fade-in{
+  .page-costar-pwd .fade-in{
     opacity: 0;
     transform: translate(0, 10vh);
     transition: all 1s;
   }
-  .fade-in.visible {
+  .page-costar-pwd .fade-in.visible {
     opacity: 1;
     transform: translate(0, 0);
   }
-  .notHidden{
+  .page-costar-pwd .notHidden{
     display:none;
   }
-  .svg_challenge{
+  .page-costar-pwd .svg_challenge{
     width:120%;
     height:120%;
     
   }
-  #goal{
+  .page-costar-pwd #goal{
     margin-top:1.5em;
   }
-  #mobile{
+  .page-costar-pwd #mobile{
     margin-top:3em;
   }
 
 }
 
 @media only screen and (max-width: 992px) {
-  #hidden{
+  .page-costar-pwd #hidden{
       display:block;
   }
-  #toHide{
+  .page-costar-pwd #toHide{
       display:none;
   }
 }
 
-#stat{
+.page-costar-pwd #stat{
   font-size:10rem;
   float:right;
 }
@@ -403,15 +403,15 @@ section {
 
   }
 } */
-#navbar-mobile{
+.page-costar-pwd #navbar-mobile{
   display:none;
 }
 
 @media (max-width: 474px) {
-  #navbar{
+  .page-costar-pwd #navbar{
     display:none;
   }
-  #navbar-mobile{
+  .page-costar-pwd #navbar-mobile{
     display:block;
   }
 }

@@ -1,36 +1,36 @@
-*{
+.page-epic *{
   cursor: url('../favicon/pointer.webp'), auto !important;
 }
-a:hover, button:hover, a, button, #avatar, img{
+.page-epic a:hover, button:hover, a, button, #avatar, img{
   cursor: url('../favicon/clicker.webp'), auto !important;
 }
-.fancybox-container {
+.page-epic .fancybox-container {
   z-index: 9999; /* Adjust the z-index value as needed */
 }
-.f-thumbs__slide.for-image .f-thumbs__slide_img {
+.page-epic .f-thumbs__slide.for-image .f-thumbs__slide_img {
   width: 100%;
   height: auto;
 }
 
 
 
-.quote-header{
+.page-epic .quote-header{
   text-align:right;
   font-family: 'Geologica', sans-serif;
 }
-.quote{
+.page-epic .quote{
   padding-left: 3.5em;
   padding-right: 3em;
   font-family: 'Geologica', sans-serif;
   font-weight: 200;
 }
-.cite{
+.page-epic .cite{
   color:#3CB0E6;
   font-size: 16px;
   line-height: 0px;
   padding-bottom: 16px;
 }
-.vertical-line{
+.page-epic .vertical-line{
 position: absolute;
   top: 40px;
   right: 0px;
@@ -39,11 +39,11 @@ position: absolute;
   background-color: black; /* Change color as needed */
   z-index: -1; /* Ensure the line is behind other content */
 }
-.gap{
+.page-epic .gap{
   top: 70px;
   height: calc(100% - 70px);
 }
-.column{
+.page-epic .column{
   position: relative; 
   margin-left: 2em;
   margin-right:0px;
@@ -53,32 +53,32 @@ position: absolute;
   /* justify-content: center; */
 }
 
-.blue{
+.page-epic .blue{
   color:#3CB0E6
 }
-.intro{
+.page-epic .intro{
   font-family: 'Geologica', sans-serif;
   font-weight: 600;
   font-size: 2em;
   text-align: center;
 }
-.black{
+.page-epic .black{
   background-color: rgb(15, 14, 14);
   color:white
 }
-.line{
+.page-epic .line{
   /* border: 1px dashed red; */
   border: 1.5px dashed #BA0239;
   /* color: #BA0239;
   text-decoration-thickness: 5px; */
 }
 
-a{
+.page-epic a{
   /* font-size: larger; */
   font-family: 'Chillax', 'Geologica', sans-serif;
   font-weight: 500;
 }
-.btn{
+.page-epic .btn{
   font-weight: 500;
 }
 
@@ -102,14 +102,14 @@ a{
   font-family: 'Chillax','Geologica', sans-serif;
   font-weight: 300;
 }
-  body, html {
+.page-epic   body, html {
       height: 100%;
   }
- p{
+.page-epic  p{
   font-size:1.2em;
 }
 
-header {
+.page-epic header {
   position: fixed;
   top: 0;
   width: 100%;
@@ -119,37 +119,37 @@ header {
   -webkit-backdrop-filter: blur(2px); 
   transition:top 0.4s ease-in-out;
 }
-.nav-up {
+.page-epic .nav-up {
   top: -120px;
 }
-#content-padding{
+.page-epic #content-padding{
   padding-top:5em;
 } 
 
-.sticky {
+.page-epic .sticky {
   position: -webkit-sticky;
 	position: sticky;
 	top: 0;
   background: rgba(255, 255, 255, 0.9);
 }
 
-#avatar{
+.page-epic #avatar{
   height: 4rem;
   width:4rem
 }  
 
-#nav_projects:hover,#nav_home:hover,#nav_gallery:hover{
+.page-epic #nav_projects:hover,#nav_home:hover,#nav_gallery:hover{
   color:grey !important;
 }
 
-.nav-link{
+.page-epic .nav-link{
   font-family: 'Chillax', sans-serif;
   font-weight: 500;
 }
-.nav-link:hover{
+.page-epic .nav-link:hover{
   color:grey !important;
 }
-  .margin{
+.page-epic  .margin{
     margin:3em 0em 3em 0em;
   }
 
@@ -173,7 +173,7 @@ header {
     font-weight:800
   }
   
-  .fade-in-image {
+  .page-epic .fade-in-image {
     animation: fadeIn 4s;
     -webkit-animation: fadeIn 4s;
     -moz-animation: fadeIn 4s;
@@ -204,7 +204,7 @@ header {
     0% {opacity:0;}
     100% {opacity:1;}
   }
-  .parallax {
+  .page-epic .parallax {
     background-image: url("../images/Epic/Campus.webp");
     width: 100%;
     height:100%;
@@ -220,85 +220,85 @@ header {
   }
 
 
-.margin{
+.page-epic .margin{
   padding-left:3em;
   padding-right:3em;
 }
 
 
-#top{
+.page-epic #top{
   padding-bottom:2em;
   padding-top:2em;
 }
 
-.hidden{
+.page-epic .hidden{
   display:none;
 }
-.quickfacts{
+.page-epic .quickfacts{
   display:none;
 }
-.rowIcons{
+.page-epic .rowIcons{
   display:none;
 }
 
 
 
 
-.tag {
+.page-epic .tag {
   opacity: 0;
   transform: translate(0, 10vh);
   transition: all 1s;
 }
 
-.tag.visible {
+.page-epic .tag.visible {
   opacity: 1;
   transform: translate(0, 0);
 }
 
-.black {
+.page-epic .black {
   background-color: black;
   color:rgb(218, 218, 218);
 }
-.green {
+.page-epic .green {
   background-color: #92c77a;
   color:white;
 }
 
-#content-padding{
+.page-epic #content-padding{
   padding-top:6em;
 }
 
-#page-padding{
+.page-epic #page-padding{
   padding-top: 4.5em;
 }
 
-#next, #previous{
+.page-epic #next, #previous{
   display: inline;
   font-size: 16px;
 }
 
 @media only screen and (max-width: 992px) {
-  .column{
+  .page-epic .column{
     display: flex;
     justify-content: center;
     padding-left:0px;
     margin-left:0px;
   }
 
-  .vertical-line{
+  .page-epic .vertical-line{
     display: none;
   }
 
 }
 
 @media only screen and (max-width: 576px) {
-  .colQuickfacts{
+  .page-epic .colQuickfacts{
     display:none;
   }
-  .quickfacts{
+  .page-epic .quickfacts{
     display:block;
   }
-  #top_heading{
+  .page-epic #top_heading{
     text-align:center;
   }
   /* .parallax {
@@ -307,31 +307,31 @@ header {
 }
 
 @media only screen and (max-width: 768px) {
-  .fade-in, .tag{
+  .page-epic .fade-in, .tag{
     opacity: 1;
   transform: translate(0, 0);
   transition: all 0s;
   }
-  .parallax{
+  .page-epic .parallax{
     background-attachment: scroll;
   }
 }
   
-#navbar-mobile{
+.page-epic #navbar-mobile{
   display:none;
 }
 
 @media (max-width: 474px) {
-  #navbar{
+  .page-epic #navbar{
     display:none;
   }
-  #navbar-mobile{
+  .page-epic #navbar-mobile{
     display:block;
   }
-  #content-padding{
+  .page-epic #content-padding{
     padding-top:8em;
   }
-  #page-padding{
+  .page-epic #page-padding{
     padding-top: 7em;
   }
 }

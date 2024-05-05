@@ -1,43 +1,4 @@
 
-function displayOverlay(project_name){
-    var styleElem = document.head.appendChild(document.createElement("style"));
-    styleElem.innerHTML = "#" + project_name + ":after {content:no-open-quote;position: absolute;z-index: 3;height: 100%;width: 100%;background: #000;opacity: 0.7;}";
-
-    var title = project_name + "_title";
-    document.getElementById(title).style.display ="block";
-}
-
-
-function displayOverlayCS(project_name){
-    var styleElem = document.head.appendChild(document.createElement("style"));
-    styleElem.innerHTML = "#" + project_name + ":after {content:no-open-quote;position: absolute;z-index: 3;height: 100%;width: 100%;background: #000;opacity: 0.7;}";
-
-    var title = project_name + "_title";
-    document.getElementById(title).style.display ="block";
-
-    var cs = project_name + "_cs";
-    document.getElementById(cs).style.display ="block";
-}
-
-function overlayOff(project_name){
-    var styleEl = document.head.appendChild(document.createElement("style"));
-    styleEl.innerHTML = "#" + project_name + ":after {opacity: 0;}";
-
-    var title = project_name + "_title";
-    document.getElementById(title).style.display ="none";
-
-}
-
-function overlayOffCS(project_name){
-    var styleEl = document.head.appendChild(document.createElement("style"));
-    styleEl.innerHTML = "#" + project_name + ":after {opacity: 0;}";
-
-    var title = project_name + "_title";
-    document.getElementById(title).style.display ="none";
-
-    var cs = project_name + "_cs";
-    document.getElementById(cs).style.display ="none";
-}
 
 function darkenText(){
     this.className = "nav-link text-dark";
