@@ -137,7 +137,7 @@
     100% {opacity:1;}
   }
 .page-pandemic .hidden, .hidden-flex{
-    display:none;
+    display:none !important;
 }
 .page-pandemic .larger-font{
     font-size:1.15em;
@@ -238,10 +238,10 @@ display:none;
         padding-top:3em;
     }
     .page-pandemic .hidden{
-        display:block;
+        display:block !important;
     }
     .page-pandemic .hidden-flex{
-        display:flex;
+        display:flex !important;
     }
     .page-pandemic .notHidden{
         display:none;

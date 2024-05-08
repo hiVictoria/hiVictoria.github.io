@@ -1,5 +1,5 @@
 .page-epic *{
-  cursor: url('../favicon/pointer.webp'), auto !important;
+  cursor: url('../favicon/pointer.webp'), auto;
 }
 .page-epic a:hover, button:hover, a, button, #avatar, img{
   cursor: url('../favicon/clicker.webp'), auto !important;
