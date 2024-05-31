@@ -66,6 +66,10 @@
   font-weight:800
 }
 
+.max-width{
+  max-width:60rem;
+}
+
 .page-women header {
   position: fixed;
   top: 0;
