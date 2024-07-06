@@ -1,4 +1,4 @@
-.page-epic *{
+*{
   cursor: url('../favicon/pointer.webp'), auto;
 }
 .page-epic a:hover, button:hover, a, button, #avatar, img{
